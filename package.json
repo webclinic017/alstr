@@ -1,7 +1,7 @@
 {
-  "name": "vanilla-parcel-boilerplate",
+  "name": "altr-1",
   "version": "1.0.0",
-  "description": "Simple workflow starter for building vanilla JS apps",
+  "description": "algo strategy v1",
   "main": "index.js",
   "scripts": {
     "dev": "npm run clean && parcel public/index.html --out-dir development -p 3000",
@@ -10,17 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bradtraversy/vanilla-parcel-boilerplate.git"
+    "url": "git@ephcoding.github.com:ephcoding/altr-1.git"
   },
   "keywords": [
     "parcel"
   ],
-  "author": "Brad Traversy",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bradtraversy/vanilla-parcel-boilerplate/issues"
-  },
-  "homepage": "https://github.com/bradtraversy/vanilla-parcel-boilerplate#readme",
+  "author": "ephcoding",
+  "license": "private",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/plugin-transform-runtime": "^7.9.0",
@@ -30,6 +26,7 @@
     "sass": "^1.26.3"
   },
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "dotenv": "^5.0.1"
   }
 }

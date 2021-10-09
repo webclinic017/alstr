@@ -1,27 +1,11 @@
-# Vanilla JS Parcel Boilerplate
+# ALTR-1 ROADMAP
 
-This is a starter workflow for building vanilla JavaScript applications using Parcel along with Babel and Sass.
+[ ] 1. pick 1st [strategy](https://algotrading101.com/learn/quantitative-trader-guide/#what-kind-of-strategy-should-I-trade)
 
-There is some sample code (Header and User components) and styling, but feel free to remove them
+[ ] 2. [platform](https://algotrading101.com/learn/quantitative-trader-guide/#which-IDE-should-I-use) to use (Alpaca for now)
 
-This project was created in a YouTube tutorial [here](https://www.youtube.com/watch?v=8rD9amRSOQY&t=1165s)
+[ ] 3. [data](https://algotrading101.com/learn/quantitative-trader-guide/#where-can-I-get-data) sources & management
 
-# Usage
+[ ] 4. [backtesting](https://algotrading101.com/learn/quantitative-trader-guide/#what-is-the-backtesting-and-our-goal)
 
-Install dependencies
-
-```
-npm install
-```
-
-Run dev server - http://localhost:3000
-
-```
-npm run dev
-```
-
-Build assets for production
-
-```
-npm run build
-```
+[ ] 5. going [live](https://algotrading101.com/learn/quantitative-trader-guide/#how-do-I-pick-a-broker)
