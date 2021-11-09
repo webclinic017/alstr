@@ -5,10 +5,15 @@
 <details>
 <summary><strong>Actions</strong></summary>
 
+- cleaned up candlestick element styles for sharing on social
+- messed with MUI's styles setup
+
 </details>
 
 <details>
 <summary><strong>Resources</strong></summary>
+
+- Material UI Global CSS "reset" (normalize) [`CssBaseline`](https://mui.com/components/css-baseline/#global-reset)
 
 </details>
 
