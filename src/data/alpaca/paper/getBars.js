@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { dataConfigs } from './axiosConfigs.js';
 
-export const getCandles = async () => {
+export const getBars = async () => {
 	const configs = dataConfigs('GME', {
 		start: '2021-02-01',
 		end: '2021-02-28',
@@ -12,8 +12,7 @@ export const getCandles = async () => {
 
 	try {
 		const res = await axios(configs);
-		candles = res.data;
-		console.log('BARS: ', candles);
+		candles = res.data.bars;
 		return candles;
 	} catch (error) {
 		console.log(error);
