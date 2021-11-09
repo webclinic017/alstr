@@ -1,11 +1,33 @@
 # ALTR-1 ROADMAP
 
-[ ] 1. pick 1st [strategy](https://algotrading101.com/learn/quantitative-trader-guide/#what-kind-of-strategy-should-I-trade)
+## **`TU 21NOV09`**
 
-[ ] 2. [platform](https://algotrading101.com/learn/quantitative-trader-guide/#which-IDE-should-I-use) to use (Alpaca for now)
+<details>
+<summary><strong>Actions</strong></summary>
 
-[ ] 3. [data](https://algotrading101.com/learn/quantitative-trader-guide/#where-can-I-get-data) sources & management
+</details>
 
-[ ] 4. [backtesting](https://algotrading101.com/learn/quantitative-trader-guide/#what-is-the-backtesting-and-our-goal)
+<details>
+<summary><strong>Resources</strong></summary>
 
-[ ] 5. going [live](https://algotrading101.com/learn/quantitative-trader-guide/#how-do-I-pick-a-broker)
+</details>
+
+## **`MO 21NOV08`**
+
+<details>
+<summary><strong>Actions</strong></summary>
+
+</details>
+
+<details>
+<summary><strong>Resources</strong></summary>
+
+- choosing a [strategy](https://algotrading101.com/learn/quantitative-trader-guide/#what-kind-of-strategy-should-I-trade)
+- choosing an [IDE](https://algotrading101.com/learn/quantitative-trader-guide/#which-IDE-should-I-use)
+- where to get [data](https://algotrading101.com/learn/quantitative-trader-guide/#where-can-I-get-data)
+- [backtesting](https://algotrading101.com/learn/quantitative-trader-guide/#what-is-the-backtesting-and-our-goal)
+- chosing a [broker](https://algotrading101.com/learn/quantitative-trader-guide/#how-do-I-pick-a-broker)
+
+</details>
+
+<br>
