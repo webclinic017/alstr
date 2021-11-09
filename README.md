@@ -1,4 +1,4 @@
-# ALTR-1 ROADMAP
+# ALGO STRATEGY | daily actions & resources
 
 ## **`TU 21NOV09`**
 
