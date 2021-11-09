@@ -1,9 +1,9 @@
 // https://alpaca.markets/docs/api-documentation/api-v2/account/
 import axios from 'axios';
-import { paperGetURL } from './axiosConfigs.js';
+import { apiConfigs } from './axiosConfigs.js';
 
 export const getAccount = async () => {
-	const configs = paperGetURL('/account');
+	const configs = apiConfigs('account');
 
 	try {
 		const res = await axios(configs);
