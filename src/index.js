@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom';
-import App from './App.jsx';
+import App from './ui/components/App.jsx';
 import dotenv from 'dotenv';
 dotenv.config();
 
