@@ -1,17 +1,9 @@
-import { useEffect, useState } from 'react';
-import { getCandles } from './data/alpaca/paper/getCandles.js';
+import CandleList from './components/CandleList.jsx';
 
 export default App = () => {
-	const [bars, setBars] = useState([]);
-
-	useEffect(() => {
-		const candles = getCandles();
-		setBars([candles]);
-	}, []);
-
 	return (
-		<div>
-			<h1>Testing...</h1>
+		<div className='App'>
+			<CandleList />
 		</div>
 	);
 };
