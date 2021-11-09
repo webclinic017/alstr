@@ -21,6 +21,7 @@ export default CandleList = () => {
 						.match(/[0-9]+/g)
 						.join('')}
 					candle={candle}
+					className='candle'
 				>
 					<span>{candle.o.toFixed(2)}</span> |{' '}
 					<span>{candle.c.toFixed(2)}</span> |{' '}
