@@ -1,4 +1,5 @@
-class MeanReversionStrategy {
+// NOTE: ** add FEES **
+class MomentumStrategy {
 	// buy indicators
 	// pick ticker
 	// buy order

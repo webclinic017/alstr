@@ -8,12 +8,9 @@ export const getBars = async () => {
 		timeframe: '1Day',
 	});
 
-	let candles;
-
 	try {
 		const res = await axios(configs);
-		candles = res.data.bars;
-		return candles;
+		return res.data.bars;
 	} catch (error) {
 		console.log(error);
 	}

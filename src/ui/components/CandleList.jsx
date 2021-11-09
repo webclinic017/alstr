@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getBars } from '../data/alpaca/paper/getBars.js';
+import { getBars } from '../../algo/alpaca/paper/getBars.js';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 
@@ -23,10 +23,22 @@ export default CandleList = () => {
 					candle={candle}
 					className='candle'
 				>
-					<span>{candle.o.toFixed(2)}</span> |{' '}
-					<span>{candle.c.toFixed(2)}</span> |{' '}
-					<span>{candle.h.toFixed(2)}</span> |{' '}
-					<span>{candle.l.toFixed(2)}</span>
+					<div className='candle__metric'>
+						<p>OPEN</p>
+						<p>{candle.o.toFixed(2)}</p>
+					</div>
+					<div className='candle__metric'>
+						<p>HIGH</p>
+						<p>{candle.h.toFixed(2)}</p>
+					</div>
+					<div className='candle__metric'>
+						<p>LOW</p>
+						<p>{candle.l.toFixed(2)}</p>
+					</div>
+					<div className='candle__metric'>
+						<p>CLOSE</p>
+						<p>{candle.c.toFixed(2)}</p>
+					</div>
 				</ListItem>
 			))}
 		</List>
