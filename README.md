@@ -32,6 +32,7 @@
 - simple mean-reversion [strategy](https://www.youtube.com/watch?v=_9Bmxylp63Y&list=PLFdGt__jX7eNj9f1xmYRmWuVBJTcMwLX8&index=1)
 - Axios [req config](https://github.com/axios/axios#request-config)
 - \*\* Alpaca JS API [example](https://github.com/alpacahq/alpaca-trade-api-js/blob/master/examples/long-short.js)
+- Material UI [React UI library](https://mui.com/)
 
 </details>
 
