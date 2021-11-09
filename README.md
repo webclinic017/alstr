@@ -18,6 +18,9 @@
 <summary><strong>Actions</strong></summary>
 
 - set up init analysis/indicators & analysis/triggers files
+- wired up Alpaca historical data call (baseURL/stocks/{ticker}/bars)
+- added packages: react, react-dom, parcel, Material UI pkgs, D3.js, node-sass
+- rendered candlestick results to screen
 
 </details>
 
