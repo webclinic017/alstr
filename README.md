@@ -17,6 +17,8 @@
 <details>
 <summary><strong>Actions</strong></summary>
 
+- set up init analysis/indicators & analysis/triggers files
+
 </details>
 
 <details>
@@ -27,6 +29,7 @@
 - where to get [data](https://algotrading101.com/learn/quantitative-trader-guide/#where-can-I-get-data)
 - [backtesting](https://algotrading101.com/learn/quantitative-trader-guide/#what-is-the-backtesting-and-our-goal)
 - chosing a [broker](https://algotrading101.com/learn/quantitative-trader-guide/#how-do-I-pick-a-broker)
+- 3-rule
 
 </details>
 
