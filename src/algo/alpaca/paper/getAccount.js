@@ -1,9 +1,15 @@
-// https://alpaca.markets/docs/api-documentation/api-v2/account/
 import axios from 'axios';
-import { apiConfigs } from './axiosConfigs.js';
 
 export const getAccount = async () => {
-	const configs = apiConfigs('account');
+	const configs = {
+		method: 'get',
+		baseURL: 'https://paper-api.alpaca.markets/v2',
+		url: `/${path}`,
+		headers: {
+			'APCA-API-KEY-ID': process.env.APCA_KEY,
+			'APCA-API-SECRET-KEY': process.env.APCA_SECRET,
+		},
+	};
 
 	try {
 		const res = await axios(configs);

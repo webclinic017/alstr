@@ -1,12 +1,20 @@
 import axios from 'axios';
-import { dataConfigs } from './axiosConfigs.js';
 
-export const getBars = async () => {
-	const configs = dataConfigs('GME', {
-		start: '2021-02-01',
-		end: '2021-02-28',
-		timeframe: '1Day',
-	});
+export const getBars = async ({ ticker, start, end, timeframe }) => {
+	const configs = {
+		method: 'get',
+		baseURL: 'https://data.alpaca.markets/v2',
+		url: `/stocks/${ticker}/bars`,
+		headers: {
+			'APCA-API-KEY-ID': process.env.APCA_KEY,
+			'APCA-API-SECRET-KEY': process.env.APCA_SECRET,
+		},
+		params: {
+			start,
+			end,
+			timeframe,
+		},
+	};
 
 	try {
 		const res = await axios(configs);
