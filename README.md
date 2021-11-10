@@ -7,6 +7,7 @@
 
 - cleaned up candlestick element styles for sharing on social
 - messed with MUI's styles setup
+- created candlestick table to convert using D3.js if I ever get to the FCC DataViz certificate
 
 </details>
 
