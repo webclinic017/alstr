@@ -15,6 +15,7 @@
 <summary><strong>Resources</strong></summary>
 
 - Material UI Global CSS "reset" (normalize) [`CssBaseline`](https://mui.com/components/css-baseline/#global-reset)
+- [Moving Ave Strategy](https://www.youtube.com/watch?v=CkEaXz9FHF4)
 
 </details>
 
