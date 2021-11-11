@@ -1,5 +1,21 @@
 # ALGO STRATEGY | daily actions & resources
 
+## **`WE 21NOV10`**
+
+<details>
+<summary><strong>Actions</strong></summary>
+
+- clea
+
+</details>
+
+<details>
+<summary><strong>Resources</strong></summary>
+
+- Mat
+
+</details>
+
 ## **`TU 21NOV09`**
 
 <details>
@@ -8,6 +24,7 @@
 - cleaned up candlestick element styles for sharing on social
 - messed with MUI's styles setup
 - created candlestick table to convert using D3.js if I ever get to the FCC DataViz certificate
+- started refactoring getBars() into getBarsForRange() (pull down bars by range for calc'ing MOVING AVE)
 
 </details>
 
