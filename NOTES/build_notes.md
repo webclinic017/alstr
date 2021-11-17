@@ -2,10 +2,13 @@
 
 ## **`next day`**
 
+## **`WE 21NOV17`**
+
 <details>
 <summary><strong>Actions</strong></summary>
 
-- actions
+- started **D3 SANDBOX**
+- went back through D3 content in freeCodeCamp
 
 </details>
 
@@ -21,7 +24,7 @@
 <details>
 <summary><strong>Actions</strong></summary>
 
-- actions
+- installed CANDLESTICK package
 
 </details>
 
