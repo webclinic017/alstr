@@ -18,14 +18,14 @@ export default CandleList = () => {
     setRange(e.target.value);
   };
 
-  useEffect(async () => {
+  useEffect(() => {
     const barParams = {
       ticker: "GME",
       start: "2020-12-31",
       end: "2021-05-28",
       timeframe: "1Day",
     };
-    const candles = await getBarsForRange(barParams);
+    const candles = getBarsForRange(barParams);
     setCandles(candles);
   }, []);
 
