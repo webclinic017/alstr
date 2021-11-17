@@ -1,0 +1,7 @@
+- [ ] import CANDLESTICK package
+- [ ] write CANDLESTICK tests with Jest
+- [ ] use D3.js to chart candlesticks and create visual indicators for:
+  - [ ] candlestick types
+  - [ ] reversion indicators
+  - [ ] breakout indicators
+- [ ]
