@@ -1,12 +1,14 @@
-import CandleList from './CandleList.jsx';
-import CssBaseline from '@mui/material/CssBaseline';
+// import CandleList from './CandleList.jsx';
+// import CssBaseline from '@mui/material/CssBaseline';
+import D3Candlestick from './D3Candlestick.jsx';
 import '../scss/App.scss';
 
 export default function App() {
 	return (
 		<div className='App'>
-			<CssBaseline />
-			<CandleList />
+			{/* <CssBaseline /> */}
+			{/* <CandleList /> */}
+			<D3Candlestick />
 		</div>
 	);
 }
