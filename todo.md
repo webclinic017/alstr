@@ -1,3 +1,5 @@
+\*\* move this shit to ADO
+
 - [ ] single candle with fake data
 - [ ] single candle with real data
 - [ ] candles for MA periods:
