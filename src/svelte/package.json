@@ -1,0 +1,51 @@
+{
+	"name": "svelte-app",
+	"main": "main.ts",
+	"build": {
+		"icon": "public/favicon.png",
+		"productName": "Svelte and Electron App",
+		"files": [
+			"public/**/*",
+			"main.js"
+		],
+		"win": {},
+		"linux": {},
+		"mac": {}
+	},
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"build": "rollup -c",
+		"dev": "rollup -c -w",
+		"start": "sirv public --no-clear",
+		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"electron": "wait-on http://localhost:5000 && electron .",
+		"electron-dev": "concurrently \"npm run dev\" \"npm run electron\"",
+		"preelectron-pack": "npm run build",
+		"electron-pack": "electron-builder"
+	},
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^17.0.0",
+		"@rollup/plugin-node-resolve": "^11.0.0",
+		"@rollup/plugin-typescript": "^8.0.0",
+		"@tsconfig/svelte": "^2.0.0",
+		"concurrently": "^6.4.0",
+		"electron": "^16.0.2",
+		"electron-builder": "^22.14.5",
+		"rollup": "^2.3.4",
+		"rollup-plugin-css-only": "^3.1.0",
+		"rollup-plugin-livereload": "^2.0.0",
+		"rollup-plugin-svelte": "^7.0.0",
+		"rollup-plugin-terser": "^7.0.0",
+		"sirv-cli": "^1.0.0",
+		"svelte": "^3.0.0",
+		"svelte-check": "^2.0.0",
+		"svelte-preprocess": "^4.0.0",
+		"tslib": "^2.0.0",
+		"typescript": "^4.0.0",
+		"wait-on": "^6.0.0"
+	},
+	"dependencies": {
+		"electron-serve": "^1.1.0"
+	}
+}
