@@ -1,5 +1,5 @@
 // NOTE: ** add FEES **
-class MeanReversionStrategy {
+// class MeanReversionStrategy {
 	// buy indicators
 	// pick ticker
 	// buy order
@@ -8,5 +8,5 @@ class MeanReversionStrategy {
 	// sell-for-loss indicators (stop loss)
 	// get-the-fuck-out indictors
 	// sell order
-	constructor() {}
-}
+	// constructor() {}
+// }

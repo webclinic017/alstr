@@ -1,9 +1,0 @@
-.env
-package-lock.json
-dist/
-build/
-.vscode/
-/node_modules/
-/public/build/
-
-.DS_Store
