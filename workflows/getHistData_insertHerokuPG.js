@@ -1,4 +1,4 @@
-import { getBarsInRange } from "../alpaca/data/alpaca/data/getBarsInRange";
+import { getBarsInRange } from "../alpaca/data/getBarsInRange";
 import { insertHistoricMarketData } from "../storage/db_postgresql/insertHistoricMarketData";
 import { Pool } from "pg";
 
