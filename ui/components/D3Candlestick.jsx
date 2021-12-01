@@ -1,6 +1,6 @@
 import * as d3 from "d3";
 import { useEffect } from "react";
-import { getBarsInRange } from "../../algo/market_data/alpaca/getBarsInRange";
+import { getBarsInRange } from "../../alpaca/data/getBarsInRange";
 
 const D3Candlestick = () => {
 	useEffect(() => {
@@ -33,9 +33,6 @@ const D3Candlestick = () => {
 			})
 			.attr("width", 50)
 			.attr("fill", d => (d.c > d.o ? "limegreen" : "red"));
-	});
-	useEffect(() => {
-		console.log(getBarsInRange());
 	});
 
 	return <svg id='candlestick'></svg>;
