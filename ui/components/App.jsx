@@ -1,14 +1,16 @@
 // import CandleList from './CandleList.jsx';
 // import CssBaseline from '@mui/material/CssBaseline';
-import D3Candlestick from './D3Candlestick.jsx';
-import '../scss/App.scss';
+// import D3Candlestick from './D3Candlestick.jsx';
+// import '../scss/App.scss';
+import { get_and_store_historical_market_data } from "../../workflows/getHistData_insertHerokuPG";
 
 export default function App() {
+	get_and_store_historical_market_data();
 	return (
 		<div className='App'>
 			{/* <CssBaseline /> */}
 			{/* <CandleList /> */}
-			<D3Candlestick />
+			{/* <D3Candlestick /> */}
 		</div>
 	);
 }
