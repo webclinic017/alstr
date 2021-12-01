@@ -34,5 +34,8 @@
 		"parcel": "^2.0.1",
 		"parcel-resolver-ignore": "^2.0.0",
 		"wait-on": "^6.0.0"
-	}
+	},
+	"parcelIgnore": [
+		"pg-native"
+	]
 }
