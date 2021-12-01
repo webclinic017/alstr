@@ -5,7 +5,7 @@
 	"description": "[ ] 1. pick 1st [strategy](https://algotrading101.com/learn/quantitative-trader-guide/#what-kind-of-strategy-should-I-trade)",
 	"main": "index.js",
 	"scripts": {
-		"start": "rm -rf ./parcel-cache /dist && parcel src/index.html"
+		"start": "rm -rf ./parcel-cache /dist && parcel index.html"
 	},
 	"repository": {
 		"type": "git",
