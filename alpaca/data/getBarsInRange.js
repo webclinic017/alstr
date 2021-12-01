@@ -19,8 +19,8 @@ export const getBarsInRange = async () => {
 
 	try {
 		const res = await axios(configs);
-		// return res.data.bars;
-		console.log(res.data.bars);
+		return res.data.bars;
+		// console.log(res.data.bars);
 	} catch (error) {
 		console.log(error);
 	}
