@@ -1,17 +1,17 @@
 import { Pool } from "pg";
 
-const pool = new Pool({
-	connectionString: process.env.POSTGRESQL_DB_URI,
-	ssl: {
-		required: true,
-		rejectUnauthorized: false,
-	},
-});
-
 export const insertHistoricMarketData = bars => {
-	const historicBars = [...bars];
+	// const historicBars = [...bars];
 
-	historicBars.forEach(bar => {
+	const pool = new Pool({
+		connectionString: process.env.POSTGRESQL_DB_URI,
+		ssl: {
+			required: true,
+			rejectUnauthorized: false,
+		},
+	});
+
+	bars.forEach(bar => {
 		pool.query(
 			`INSERT INTO bars (timestamp,open,high,low,close,volume)
     VALUES (${bar.t}, ${bar.o}, ${bar.h}, ${bar.l}, ${bar.c}, ${bar.v})`,
@@ -26,5 +26,3 @@ export const insertHistoricMarketData = bars => {
 		);
 	});
 };
-
-// pool.query(`INSERT INTO bars`)
