@@ -1,4 +1,4 @@
-import { alpaca } from "./config";
+import { alpaca } from "./paper/config";
 
 export const getBarsInRangeSDK = options => {
 	let bars;
