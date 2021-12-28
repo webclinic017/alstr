@@ -1,4 +1,4 @@
-![project's section banner](./assets/readme_title.png)
+![alstr project hero](./assets/readme_title.png)
 
 ## **OBJECTIVE**
 
@@ -10,9 +10,7 @@ Build a scalable algorithmic trading strategy from scratch.
 - basic P&L reporting for both backtesting & live trading
 - live-trade one strategy using streaming market data
 
-<h2 id='project-status' align='center'>
-  <img alt='project-status section banner' src='./assets/readme_status.png'>
-</h2>
+![alstr project status](./assets/readme_status.png)
 
 ### **_Research_**
 
@@ -21,6 +19,29 @@ Build a scalable algorithmic trading strategy from scratch.
 - [ ] brokerage options
 - [ ] market data resources
 
-<h2 id='resources' align='center'>
-  <img alt='resources section banner' src='./assets/readme_resources.png'>
-</h2>
+### **_Development_**
+
+- [ ] fetch historical stock market data
+- [ ] stash/cache (catalog) historical market data
+- [ ] strategy backtesting service
+- [ ] stream real-time market data
+- [ ] execute strategy (trigger-based buy/sell orders)
+- [ ] manage orders with broker
+- [ ] strategy trigger-monitoring service
+- [ ] P&L report-generating service
+
+![alstr project resources](./assets/readme_resources.png)
+
+Alpaca trading [API](https://alpaca.markets/)
+
+Better Trading System
+
+- [YouTube channel]()
+- [podcast]()
+
+Bloom Trading
+
+- [Foundational Stock Trading Course]()
+- [Advanced Stock Trading Course]()
+
+[Interactive Brokers](https://www.interactivebrokers.com/en/home.php) Trading Platform
