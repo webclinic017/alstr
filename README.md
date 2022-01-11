@@ -34,6 +34,9 @@ Build a scalable algorithmic trading strategy from scratch.
 
 Alpaca trading [API](https://alpaca.markets/)
 
+- Node.js [SDK](https://github.com/alpacahq/alpaca-trade-api-js)
+- historical market data [methods](https://github.com/alpacahq/alpaca-trade-api-js#data-api)
+
 Better Trading System
 
 - [YouTube channel]()
