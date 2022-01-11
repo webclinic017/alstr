@@ -5,7 +5,7 @@
 	"description": "[ ] 1. pick 1st [strategy](https://algotrading101.com/learn/quantitative-trader-guide/#what-kind-of-strategy-should-I-trade)",
 	"main": "index.js",
 	"scripts": {
-		"start": "rm -rf ./parcel-cache /dist && parcel src/index.html"
+		"start": "rm -rf ./parcel-cache /dist && parcel index.html"
 	},
 	"repository": {
 		"type": "git",
@@ -15,19 +15,27 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"@emotion/react": "^11.5.0",
-		"@emotion/styled": "^11.3.0",
-		"@mui/material": "^5.1.0",
+		"@alpacahq/alpaca-trade-api": "^2.10.0",
 		"axios": "^0.24.0",
 		"candlestick": "^0.0.3",
 		"d3": "^7.1.1",
+		"electron-serve": "^1.1.0",
+		"pg": "^8.7.1",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2"
 	},
 	"devDependencies": {
 		"@parcel/transformer-sass": "^2.0.1",
+		"concurrently": "^6.4.0",
 		"dotenv": "^10.0.0",
+		"electron": "^16.0.2",
+		"electron-builder": "^22.14.5",
 		"node-sass": "^6.0.1",
-		"parcel": "^2.0.1"
-	}
+		"parcel": "^2.0.1",
+		"parcel-resolver-ignore": "^2.0.0",
+		"wait-on": "^6.0.0"
+	},
+	"parcelIgnore": [
+		"pg-native"
+	]
 }
