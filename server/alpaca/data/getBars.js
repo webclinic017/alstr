@@ -1,11 +1,11 @@
 import axios from "axios";
 
 // export const getBarsForRange = async ({ ticker, start, end, timeframe }) => {
-export const getBarsInRange = async () => {
+export const getBars = async (ticker, rangeAsArr) => {
 	const configs = {
 		method: "get",
 		baseURL: "https://data.alpaca.markets/v2",
-		url: `/stocks/HOG/bars`,
+		url: `/stocks/${ticker}/bars`,
 		headers: {
 			"APCA-API-KEY-ID": process.env.APCA_API_KEY_ID,
 			"APCA-API-SECRET-KEY": process.env.APCA_API_SECRET_KEY,
