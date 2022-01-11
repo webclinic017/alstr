@@ -1,5 +1,5 @@
 import { getBarsInRange } from "../alpaca/alpaca/getBarsInRange";
-import { insertHistoricMarketData } from "../data/market/pgInsertMarketData";
+import { insertHistoricMarketData } from "../db/pgInsertMarketData";
 import { Pool } from "pg";
 
 export const get_and_store_historical_market_data = async () => {

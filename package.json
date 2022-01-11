@@ -1,41 +1,32 @@
 {
-	"name": "alstr-1",
-	"version": "1.0.0",
-	"type": "module",
-	"description": "[ ] 1. pick 1st [strategy](https://algotrading101.com/learn/quantitative-trader-guide/#what-kind-of-strategy-should-I-trade)",
+	"author": "",
+	"description": "",
+	"keywords": [],
+	"license": "ISC",
 	"main": "index.js",
-	"scripts": {
-		"start": "rm -rf ./parcel-cache /dist && parcel index.html"
-	},
+	"name": "alstr",
 	"repository": {
 		"type": "git",
-		"url": "git@ephcoding.github.com:ephcoding/altr-1.git"
+		"url": "git@ephcoding.github.com:ephcoding/alstr.git"
 	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"type": "module",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "yarn backend/server",
+		"server": "nodemon backend/server",
+		"client": "yarn start --prefix frontend",
+		"dev": "concurrently \"yarn run server\" \"yarn run client\""
+	},
 	"dependencies": {
-		"@alpacahq/alpaca-trade-api": "^2.10.0",
-		"axios": "^0.24.0",
-		"candlestick": "^0.0.3",
-		"d3": "^7.1.1",
-		"electron-serve": "^1.1.0",
-		"pg": "^8.7.1",
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2"
+		"bcryptjs": "^2.4.3",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-async-handler": "^1.1.4",
+		"jsonwebtoken": "^8.5.1",
+		"morgan": "^1.10.0"
 	},
 	"devDependencies": {
-		"@parcel/transformer-sass": "^2.0.1",
-		"concurrently": "^6.4.0",
-		"dotenv": "^10.0.0",
-		"electron": "^16.0.2",
-		"electron-builder": "^22.14.5",
-		"node-sass": "^6.0.1",
-		"parcel": "^2.0.1",
-		"parcel-resolver-ignore": "^2.0.0",
-		"wait-on": "^6.0.0"
-	},
-	"parcelIgnore": [
-		"pg-native"
-	]
+		"concurrently": "^5.3.0",
+		"nodemon": "^2.0.4"
+	}
 }
