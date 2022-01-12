@@ -1,0 +1,3 @@
+class SellForLossOrder {
+  constructor()
+}
