@@ -21,3 +21,6 @@ const multiBarsOptions = {
 // getAccountInfo();
 // getBars(barOptions);
 getMultiBars(multiBarsOptions);
+
+// ** DO TODAY **
+// -- setup local pg db table insert queries
