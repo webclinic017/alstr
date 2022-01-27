@@ -3,7 +3,7 @@
 <div align='center'>
 
 | RESEARCH                                                          | DEVELOPMENT                                                       |
-| ----------------------------------------------------------------- | ----------------------------------------------------------------- |
+| :---------------------------------------------------------------- | :---------------------------------------------------------------- |
 | :white_large_square: algo-trading strategies                      | :white_large_square: algo-trading strategies                      |
 | :white_large_square: algo-trading architecture                    | :white_large_square: algo-trading architecture                    |
 | :white_large_square: market data sources                          | :white_large_square: market data sources                          |
