@@ -5,6 +5,7 @@
 | RESEARCH                             | DEVELOPMENT                    |
 | ------------------------------------ | ------------------------------ |
 | :white_large_square: item 1 not done | :white_check_mark: item 1 done |
+| :black_large_square: item 1 not done | :white_check_mark: item 1 done |
 
 </div>
 
