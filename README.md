@@ -14,7 +14,7 @@
 |                                                                   | :white_large_square: store real-time market data                          |
 |                                                                   | :white_large_square: forward test strategy using real-time market data    |
 |                                                                   | :white_large_square: generate forward testing P&L reports                 |
-|                                                                   | **_-- Run Strategy_**                                                     |
+|                                                                   | **_>> Run Strategy_**                                                     |
 |                                                                   | :white_large_square: run strategy against real-time market data           |
 |                                                                   | :white_large_square: execute orders based on strategy entry/exit triggers |
 |                                                                   | :white_large_square: send push notifications to assigned devices          |
