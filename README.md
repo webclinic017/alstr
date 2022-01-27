@@ -2,13 +2,21 @@
 
 <div align='center'>
 
+<span>
+
 | RESEARCH                     |
 | ---------------------------- |
 | <ul><li>- [ ] li 1</li></ul> |
 
+</span>
+
+<span>
+
 | DEVELOPMENT                  |
 | ---------------------------- |
 | <ul><li>- [ ] li 1</li></ul> |
+
+</span>
 
 </div>
 
