@@ -2,21 +2,9 @@
 
 <div align='center'>
 
-<span style='display: inline-block;'>
-
-| RESEARCH                     |
-| ---------------------------- |
-| <ul><li>- [ ] li 1</li></ul> |
-
-</span>
-
-<span style='display: inline-block;'>
-
-| DEVELOPMENT                  |
-| ---------------------------- |
-| <ul><li>- [ ] li 1</li></ul> |
-
-</span>
+| RESEARCH                             | DEVELOPMENT                    |
+| ------------------------------------ | ------------------------------ |
+| :white_large_square: item 1 not done | :white_check_mark: item 1 done |
 
 </div>
 
