@@ -1,9 +1,9 @@
 ![alstr project hero](./repo_assets/readme_title.png)
 
-| RESEARCH   | DEVELOPMENT |
-| ---------- | ----------- |
-| - [ ] li 1 | - [ ] li 1  |
-| - [ ] li 2 | - [ ] li 2  |
+| RESEARCH            | DEVELOPMENT                  |
+| ------------------- | ---------------------------- |
+| <li>- [ ] li 1</li> | <ul><li>- [ ] li 1</li></ul> |
+| - [ ] li 2          | - [ ] li 2                   |
 
 ## **RESEARCH**
 
