@@ -2,24 +2,24 @@
 
 <div align='center'>
 
-| RESEARCH                                                          | DEVELOPMENT                                                               |
+| <h2>**RESEARCH**</h2>                                             | <h2>**DEVELOPMENT**</h2>                                                  |
 | :---------------------------------------------------------------- | :------------------------------------------------------------------------ |
-| :white_large_square: algo-trading strategies                      | **_>> Backtesting_**                                                      |
+| :white_large_square: algo-trading strategies                      | <h2><strong>**_Backtesting_**</strong></h2>                               |
 | :white_large_square: algo-trading architecture                    | :white_large_square: fetch historical stock market data                   |
 | :white_large_square: market data sources                          | :white_large_square: store historical market data                         |
 | :white_large_square: brokerage options                            | :white_large_square: backtest strategy using historical market data       |
 | :white_large_square: cloud hosting options (capabilites vs. cost) | :white_large_square: generate backtesting P&L reports                     |
-|                                                                   | **_>> Forward Testing_**                                                  |
+|                                                                   | <h2><strong>**_Forward Testing_**</strong></h2>                           |
 |                                                                   | :white_large_square: stream real-time market data                         |
 |                                                                   | :white_large_square: store real-time market data                          |
 |                                                                   | :white_large_square: forward test strategy using real-time market data    |
 |                                                                   | :white_large_square: generate forward testing P&L reports                 |
-|                                                                   | **_>> Run Strategy_**                                                     |
+|                                                                   | <h2><strong>**_Run Strategy_**</strong></h2>                              |
 |                                                                   | :white_large_square: run strategy against real-time market data           |
 |                                                                   | :white_large_square: execute orders based on strategy entry/exit triggers |
 |                                                                   | :white_large_square: send push notifications to assigned devices          |
 |                                                                   | :white_large_square: generate P&L reports for executed orders             |
-|                                                                   | **_>> Strategy Management_**                                              |
+|                                                                   | <h2><strong>**_Strategy Management_**</strong></h2>                       |
 |                                                                   | :white_large_square: desktop admin GUI                                    |
 |                                                                   | :white_large_square: mobile admin GUI                                     |
 |                                                                   | :white_large_square: web admin GUI                                        |
