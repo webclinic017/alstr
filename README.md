@@ -2,7 +2,7 @@
 
 <div align='center'>
 
-<span>
+<span style='display: inline-block;'>
 
 | RESEARCH                     |
 | ---------------------------- |
@@ -10,7 +10,7 @@
 
 </span>
 
-<span>
+<span style='display: inline-block;'>
 
 | DEVELOPMENT                  |
 | ---------------------------- |
