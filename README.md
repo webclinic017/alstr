@@ -1,34 +1,43 @@
 ![alstr project hero](./repo_assets/readme_title.png)
 
-## **_OBJECTIVE_**
+| RESEARCH | DEVELOPMENT |
+| -------- | ----------- |
+| - [ ] 1  | - [ ] 1     |
 
-Build a scalable algorithmic trading strategy from scratch.
+## **RESEARCH**
 
-## **_MVP FUNCTIONALITY_**
-
-- [ ] backtesting capabilities
-- [ ] basic P&L reporting for both backtesting & live trading
-- [ ] live-trade one strategy using streaming market data
-
-![alstr project status](./repo_assets/readme_status.png)
-
-## **_RESEARCH_**
-
-- [ ] algo trading system architectures
-- [ ] cloud resource options (capabilites vs. cost)
-- [ ] brokerage options
+- [ ] algo-trading strategies
+- [ ] algo-trading architecture
 - [ ] market data sources
+- [ ] brokerage options
+- [ ] cloud hosting options (capabilites vs. cost)
 
-## **_DEVELOPMENT_**
+## **DEVELOPMENT**
+
+### _Backtesting_
 
 - [ ] fetch historical stock market data
-- [ ] stash/cache (catalog) historical market data
-- [ ] strategy backtesting service
+- [ ] store historical market data
+- [ ] backtest strategy using historical market data
+- [ ] generate backtesting P&L reports
+
+### _Forward Testing_
+
 - [ ] stream real-time market data
-- [ ] execute strategy (trigger-based buy/sell orders)
-- [ ] manage orders with broker
-- [ ] strategy trigger-monitoring service
-- [ ] P&L report-generating service
+- [ ] store real-time market data
+- [ ] forward test strategy using real-time market data
+- [ ] generate forward testing P&L reports
+
+### _Strategy Execution_
+
+- [ ] run strategy against real-time market data
+- [ ] execute orders based on strategy entry/exit triggers
+- [ ] send push notifications to assigned devices
+- [ ] generate P&L reports for executed orders
+
+### _Strategy Management_
+
+- [ ] admin GUI (desktop, mobile, web)
 
 ![alstr project resources](./repo_assets/readme_resources.png)
 
