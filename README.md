@@ -1,30 +1,41 @@
 ![alstr project hero](./repo_assets/readme_title.png)
 
-<div align='center'>
+## **RESEARCH**
 
-| <h2>**RESEARCH**</h2>                                             | <h2>**DEVELOPMENT**</h2>                                                  |
-| :---------------------------------------------------------------- | :------------------------------------------------------------------------ |
-| :white_large_square: algo-trading strategies                      | <h2><strong>**_Backtesting_**</strong></h2>                               |
-| :white_large_square: algo-trading architecture                    | :white_large_square: fetch historical stock market data                   |
-| :white_large_square: market data sources                          | :white_large_square: store historical market data                         |
-| :white_large_square: brokerage options                            | :white_large_square: backtest strategy using historical market data       |
-| :white_large_square: cloud hosting options (capabilites vs. cost) | :white_large_square: generate backtesting P&L reports                     |
-|                                                                   | <h2><strong>**_Forward Testing_**</strong></h2>                           |
-|                                                                   | :white_large_square: stream real-time market data                         |
-|                                                                   | :white_large_square: store real-time market data                          |
-|                                                                   | :white_large_square: forward test strategy using real-time market data    |
-|                                                                   | :white_large_square: generate forward testing P&L reports                 |
-|                                                                   | <h2><strong>**_Run Strategy_**</strong></h2>                              |
-|                                                                   | :white_large_square: run strategy against real-time market data           |
-|                                                                   | :white_large_square: execute orders based on strategy entry/exit triggers |
-|                                                                   | :white_large_square: send push notifications to assigned devices          |
-|                                                                   | :white_large_square: generate P&L reports for executed orders             |
-|                                                                   | <h2><strong>**_Strategy Management_**</strong></h2>                       |
-|                                                                   | :white_large_square: desktop admin GUI                                    |
-|                                                                   | :white_large_square: mobile admin GUI                                     |
-|                                                                   | :white_large_square: web admin GUI                                        |
+- [ ] algo-trading strategies
+- [ ] algo-trading architecture
+- [ ] market data sources
+- [ ] brokerage options
+- [ ] cloud hosting options (capabilites vs. cost)
 
-</div>
+## **DEVELOPMENT**
+
+### _Backtesting_
+
+- [ ] fetch historical stock market data
+- [ ] store historical market data
+- [ ] backtest strategy using historical market data
+- [ ] generate backtesting P&L reports
+
+### _Forward Testing_
+
+- [ ] stream real-time market data
+- [ ] store real-time market data
+- [ ] forward test strategy using real-time market data
+- [ ] generate forward testing P&L reports
+
+### _Run Strategy_
+
+- [ ] run strategy against real-time market data
+- [ ] execute orders based on strategy entry/exit triggers
+- [ ] send push notifications to assigned devices
+- [ ] generate P&L reports for executed orders
+
+### _Strategy Management_
+
+- [ ] desktop admin GUI
+- [ ] mobile admin GUI
+- [ ] web admin GUI
 
 ![alstr project resources](./repo_assets/readme_resources.png)
 
