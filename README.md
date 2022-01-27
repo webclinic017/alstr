@@ -4,11 +4,11 @@
 
 | RESEARCH                                                          | DEVELOPMENT                                                       |
 | ----------------------------------------------------------------- | ----------------------------------------------------------------- |
-| :white_large_square: algo-trading strategies                      | :white_check_mark: fetch historical stock market data             |
-| :white_large_square: algo-trading architecture                    | :white_check_mark: store historical market data                   |
-| :white_large_square: market data sources                          | :white_check_mark: backtest strategy using historical market data |
-| :white_large_square: brokerage options                            | :white_check_mark: generate backtesting P&L reports               |
-| :white_large_square: cloud hosting options (capabilites vs. cost) | :white_check_mark:                                                |
+| :white_large_square: algo-trading strategies                      | :white_large_square: algo-trading strategies                      |
+| :white_large_square: algo-trading architecture                    | :white_large_square: algo-trading architecture                    |
+| :white_large_square: market data sources                          | :white_large_square: market data sources                          |
+| :white_large_square: brokerage options                            | :white_large_square: brokerage options                            |
+| :white_large_square: cloud hosting options (capabilites vs. cost) | :white_large_square: cloud hosting options (capabilites vs. cost) |
 
 </div>
 
@@ -18,10 +18,10 @@
 
 ### _Backtesting_
 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [ ] fetch historical stock market data
+- [ ] store historical market data
+- [ ] backtest strategy using historical market data
+- [ ] generate backtesting P&L reports
 
 ### _Forward Testing_
 
