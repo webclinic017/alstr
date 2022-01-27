@@ -1,9 +1,12 @@
 ![alstr project hero](./repo_assets/readme_title.png)
 
-| RESEARCH            | DEVELOPMENT                  |
-| ------------------- | ---------------------------- |
-| <li>- [ ] li 1</li> | <ul><li>- [ ] li 1</li></ul> |
-| - [ ] li 2          | - [ ] li 2                   |
+<div align='center'>
+
+| RESEARCH                     |
+| ---------------------------- |
+| <ul><li>- [ ] li 1</li></ul> |
+
+</div>
 
 ## **RESEARCH**
 
@@ -38,7 +41,9 @@
 
 ### _Strategy Management_
 
-- [ ] admin GUI (desktop, mobile, web)
+- [ ] desktop admin GUI
+- [ ] mobile admin GUI
+- [ ] web admin GUI
 
 ![alstr project resources](./repo_assets/readme_resources.png)
 
