@@ -1,6 +1,7 @@
 .DS_Store
 .env
 package-lock.json
-/node_modules
+node_modules/
 .parcel-cache
 dist
+yarn.lock

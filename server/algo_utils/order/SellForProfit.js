@@ -1,4 +1,4 @@
-class ProfitOrder {
+class SellForProfitOrder {
 	// -- TICKER
 	// -- SIDE: buy/sell
 	// -- TYPE:

@@ -1,5 +1,5 @@
 import { getBarsInRange } from "../alpaca/alpaca/getBarsInRange";
-import { insertHistoricMarketData } from "../data/market/pgInsertMarketData";
+import { db_insertHistoricalBars } from "../db/db_insertHistoricalBars";
 import { Pool } from "pg";
 
 export const get_and_store_historical_market_data = async () => {
@@ -38,6 +38,6 @@ export const get_and_store_historical_market_data = async () => {
 		}
 	);
 	// -- insert bars into PostgreSQL db
-	insertHistoricMarketData(bars);
+	db_insertHistoricalBars(bars);
 	// -- run select statement to verify inserted bars
 };

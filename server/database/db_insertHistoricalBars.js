@@ -1,6 +1,6 @@
 import { Pool } from "pg";
 
-export const insertHistoricMarketData = bars => {
+export const db_insertHistoricalBars = bars => {
 	// const historicBars = [...bars];
 
 	const pool = new Pool({
