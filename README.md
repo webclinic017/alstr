@@ -2,11 +2,11 @@
 
 ## **RESEARCH**
 
-- [ ] algo-trading strategies
-- [ ] algo-trading architecture
+- [ ] trading strategy indicators/triggers
+- [ ] cloud architecture design
 - [ ] market data sources
-- [ ] brokerage options
-- [ ] cloud hosting options (capabilites vs. cost)
+- [ ] brokers/APIs
+- [ ] cloud hosting options (performance, cost)
 
 ## **DEVELOPMENT**
 
@@ -33,29 +33,28 @@
 
 ### _Strategy Management_
 
-- [ ] desktop admin GUI
-- [ ] mobile admin GUI
-- [ ] web admin GUI
+- [ ] desktop GUI
+- [ ] mobile GUI
+- [ ] web GUI
 
 ![alstr project resources](./repo_assets/readme_resources.png)
 
-Alpaca trading [API](https://alpaca.markets/)
+## **ARCHITECTURE**
 
-- Node.js [SDK](https://github.com/alpacahq/alpaca-trade-api-js)
-- historical market data [methods](https://github.com/alpacahq/alpaca-trade-api-js#data-api)
+## **BROKERS**
 
-Better Trading System
+- [Alpaca](https://alpaca.markets/)
+- [Interactive Brokers](https://www.interactivebrokers.com/en/home.php)
 
-- [YouTube channel]()
-- [podcast]()
+## **DATA STORAGE**
 
-Bloom Trading
+## **MARKET DATA**
 
-- [Foundational Stock Trading Course]()
-- [Advanced Stock Trading Course]()
+- Alpaca: [JavaScript SKD](https://github.com/alpacahq/alpaca-trade-api-js)
 
-[Interactive Brokers](https://www.interactivebrokers.com/en/home.php) Trading Platform
+## **TECHNICAL ANALYSIS**
 
-![alstr project resources](./repo_assets/readme_questions.png)
+## **TRADING STRATEGIES**
 
-- [getBarsV2()](https://github.com/alpacahq/alpaca-trade-api-js/blob/e323991fa6fc0e629ffc52514a009f2a9b24ce31/lib/resources/datav2/rest_v2.ts#L241) returns AlpacaBar [AsyncGenerator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator) via [function\*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*) getBars()
+- Better Trading System: [YouTube]() | [podcast]()
+- Bloom Trading: [Udemy courses](https://www.udemy.com/user/mtg-team/)
