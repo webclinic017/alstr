@@ -1,0 +1,39 @@
+#range-select {
+  color: #fff;
+}
+.MuiBox-root {
+  border: 2px solid #fff;
+  display: inline-block;
+  width: 25vw;
+
+  .MuiFormControl-root {
+    color: #fff;
+    width: 100%;
+  }
+
+  .MuiInputLabel-root {
+    color: #fff;
+  }
+}
+.candlesticks__header {
+  background: #222;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  left: 0;
+  text-align: center;
+  z-index: 100;
+}
+
+.candlesticks__header-label,
+.candlestick__value {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  width: 19vw;
+}
+
+.MuiListItem-root.candlestick {
+  justify-content: center;
+  margin: 0.5rem;
+}
