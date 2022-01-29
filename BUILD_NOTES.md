@@ -71,8 +71,10 @@
 
 ![alstr notes graphic](./readme/bn_notes.png)
 
+- Alpaca [React Native App](https://github.com/hackingthemarkets/alpaca-react-native)
 - [ESLint](https://eslint.org/docs/about/)
   - using it for project configs (Ignite's `__dev__` global)
+- Full Stack [Trading App Tutorial](https://hackingthemarkets.com/)
 
 <!-- #endregion /notes -->
 

@@ -1,13 +1,10 @@
 // const { ENVIRONMENT_DEPENDENT_VARIABLE } = require("../../config/env.dev OR ../../config/env.prod")
+const { APCA_PAPER_BASE_URL } = require("../constants.js")
 
-const API_URL = "http://example.com"
+const API_URL = APCA_PAPER_BASE_URL
 
 export interface ApiConfig {
   url: string
-
-  /**
-   * Milliseconds before we timeout the request.
-   */
   timeout: number
 }
 
