@@ -1,60 +1,76 @@
-![alstr project hero](./repo_assets/readme_title.png)
+![alstr title graphic](./readme/rm_title.png)
 
-## **RESEARCH**
+ALSTR is a full algo-trading platform that will include backtesting, forward testing, strategy execution, P&L report generation, AI-influenced strategy optimization, and strategy management via mobile interface.
 
-- [ ] trading strategy indicators/triggers
-- [ ] cloud architecture design
-- [ ] market data sources
-- [ ] brokers/APIs
-- [ ] cloud hosting options (performance, cost)
+ALSTR is **very** early in development. That being said, I thought it'd be more fun to build it in public;) If you have any feedback, input, suggestions, advice - I'd love to hear it. **_[Hit me up!](mailto:github@ephraimsmith.dev)_**
 
-## **DEVELOPMENT**
+**_:bangbang: Check out [`BUILD_NOTES.md`](https://github.com/ephraimsmithdev/alstr/blob/prod/BUILD_NOTES.md) for project resources, notes, issues, & the rest of the dirt! :bangbang:_**
 
-### _Backtesting_
+![alstr install & run graphic](./readme/rm_install-run.png)
 
-- [ ] fetch historical stock market data
-- [ ] store historical market data
-- [ ] backtest strategy using historical market data
-- [ ] generate backtesting P&L reports
+close repo
 
-### _Forward Testing_
+```shellscript
+git clone https://github.com/ephraimsmithdev/alstr.git
+```
 
-- [ ] stream real-time market data
-- [ ] store real-time market data
-- [ ] forward test strategy using real-time market data
-- [ ] generate forward testing P&L reports
+install dependencies
 
-### _Run Strategy_
+```shellscript
+npm i || yarn install
+```
 
-- [ ] run strategy against real-time market data
-- [ ] execute orders based on strategy entry/exit triggers
-- [ ] send push notifications to assigned devices
-- [ ] generate P&L reports for executed orders
+run mobile frontend (start's Expo's Metro bundler)
 
-### _Strategy Management_
+```shellscript
+npm run start || yarn run start
+```
 
-- [ ] desktop GUI
-- [ ] mobile GUI
-- [ ] web GUI
+run backend
 
-![alstr project resources](./repo_assets/readme_resources.png)
+```shellscript
+Coming soon...
+```
 
-## **ARCHITECTURE**
+![alstr how to use graphic](./readme/rm_how-to-use.png)
 
-## **BROKERS**
+Coming soon...
 
-- [Alpaca](https://alpaca.markets/)
-- [Interactive Brokers](https://www.interactivebrokers.com/en/home.php)
+![alstr shout outs graphic](./readme/rm_shout-outs.png)
 
-## **DATA STORAGE**
+### **_Infinite Red_**
 
-## **MARKET DATA**
+- React Native [Ignite](https://github.com/infinitered/ignite) boilerplate
 
-- Alpaca: [JavaScript SKD](https://github.com/alpacahq/alpaca-trade-api-js)
+### **_Jeffrey Hyer_**
 
-## **TECHNICAL ANALYSIS**
+- Node.js algo-trading [backtesting & execution engine](https://github.com/JeffreyHyer/grandmaster)
 
-## **TRADING STRATEGIES**
+![alstr license graphic](./readme/rm_license.png)
 
-- Better Trading System: [YouTube]() | [podcast]()
-- Bloom Trading: [Udemy courses](https://www.udemy.com/user/mtg-team/)
+The MIT License (MIT)
+
+Copyright © 2022 Ephraim Smith
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+![alstr contribute graphic](./readme/rm_contribute.png)
+
+I'm totally open to all feedback, input, advice, critiques, or the like. Fork it & make a pull request. Shoot me an email. Find me on the web.
+
+![alstr connect graphic](./readme/rm_connect.png)
+
+<div align='center'>
+
+[Twitter](https://twitter.com/ephraimsmithdev) |
+[email](mailto:github@ephraimsmith.dev) |
+[ephraimsmith.dev](https://ephraimsmith.dev) |
+[LinkedIn](https://linkedin.com/in/ephraimsmithdev) |
+[Instagram](https://instagram.com/ephraimsmithdev) |
+[GitHub](https://github.com/ephraimsmithdev)
+
+</div>
