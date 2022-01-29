@@ -1,15 +1,8 @@
-// Use this import if you want to use "env.js" file
-// const { API_URL } = require("../../config/env")
-// Or just specify it directly like this:
+// const { ENVIRONMENT_DEPENDENT_VARIABLE } = require("../../config/env.dev OR ../../config/env.prod")
+
 const API_URL = "http://example.com"
 
-/**
- * The options used to configure the API.
- */
 export interface ApiConfig {
-  /**
-   * The URL of the api.
-   */
   url: string
 
   /**
