@@ -66,3 +66,14 @@
 ![alstr lessons-learned graphic](./readme/bn_lessons-learned.png)
 
 ![alstr connect graphic](./readme/rm_connect.png)
+
+<div align='center'>
+
+[Twitter](https://twitter.com/ephraimsmithdev) |
+[email](mailto:github@ephraimsmith.dev) |
+[ephraimsmith.dev](https://ephraimsmith.dev) |
+[LinkedIn](https://linkedin.com/in/ephraimsmithdev) |
+[Instagram](https://instagram.com/ephraimsmithdev) |
+[GitHub](https://github.com/ephraimsmithdev)
+
+</div>
