@@ -47,6 +47,10 @@
 
 ## **ARCHITECTURE**
 
+- Alpaca [React Native App](https://github.com/hackingthemarkets/alpaca-react-native)
+- Full Stack [Trading App Tutorial](https://hackingthemarkets.com/)
+- hosting projects [on a budget](https://www.youtube.com/watch?v=Kx_1NYYJS7Q&list=WL&index=5)
+
 ## **BROKERS**
 
 - [Alpaca](https://alpaca.markets/)
@@ -71,10 +75,8 @@
 
 ![alstr notes graphic](./readme/bn_notes.png)
 
-- Alpaca [React Native App](https://github.com/hackingthemarkets/alpaca-react-native)
 - [ESLint](https://eslint.org/docs/about/)
   - using it for project configs (Ignite's `__dev__` global)
-- Full Stack [Trading App Tutorial](https://hackingthemarkets.com/)
 
 <!-- #endregion /notes -->
 
