@@ -1,5 +1,7 @@
 ![alstr build notes graphic](./readme/bn_title.png)
 
+<!-- #region info -->
+
 ## **RESEARCH**
 
 - [ ] trading strategy indicators/triggers
@@ -37,9 +39,17 @@
 - [ ] mobile GUI
 - [ ] web GUI
 
+<!-- #endregion /info -->
+
+<!-- #region resources -->
+
 ![alstr resources graphic](./readme/bn_resources.png)
 
 ## **ARCHITECTURE**
+
+- Alpaca [React Native App](https://github.com/hackingthemarkets/alpaca-react-native)
+- Full Stack [Trading App Tutorial](https://hackingthemarkets.com/)
+- hosting projects [on a budget](https://www.youtube.com/watch?v=Kx_1NYYJS7Q&list=WL&index=5)
 
 ## **BROKERS**
 
@@ -59,11 +69,24 @@
 - Better Trading System: [YouTube]() | [podcast]()
 - Bloom Trading: [Udemy courses](https://www.udemy.com/user/mtg-team/)
 
+<!-- #endregion /resources -->
+
+<!-- #region notes -->
+
+![alstr notes graphic](./readme/bn_notes.png)
+
+- [ESLint](https://eslint.org/docs/about/)
+  - using it for project configs (Ignite's `__dev__` global)
+
+<!-- #endregion /notes -->
+
 ![alstr issues graphic](./readme/bn_issues.png)
 
 ![alstr questions graphic](./readme/bn_questions.png)
 
 ![alstr lessons-learned graphic](./readme/bn_lessons-learned.png)
+
+<!-- #region connect -->
 
 ![alstr connect graphic](./readme/rm_connect.png)
 
@@ -77,3 +100,5 @@
 [GitHub](https://github.com/ephraimsmithdev)
 
 </div>
+
+<!-- #endregion /connect -->
