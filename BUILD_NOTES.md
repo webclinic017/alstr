@@ -2,38 +2,30 @@
 
 <!-- #region info -->
 
-## **RESEARCH**
+## **ROADMAP**
 
-- [ ] trading strategy indicators/triggers
-- [ ] cloud architecture design
-- [ ] market data sources
-- [ ] brokers/APIs
-- [ ] cloud hosting options (performance, cost)
-
-## **DEVELOPMENT**
-
-### _Backtesting_
+### _**Sprint 1:** Backtesting_
 
 - [ ] fetch historical stock market data
 - [ ] store historical market data
 - [ ] backtest strategy using historical market data
 - [ ] generate backtesting P&L reports
 
-### _Forward Testing_
+### _**Sprint 2:** Forward Testing_
 
 - [ ] stream real-time market data
 - [ ] store real-time market data
 - [ ] forward test strategy using real-time market data
 - [ ] generate forward testing P&L reports
 
-### _Run Strategy_
+### _**Sprint 3:** Run Strategy_
 
 - [ ] run strategy against real-time market data
 - [ ] execute orders based on strategy entry/exit triggers
 - [ ] send push notifications to assigned devices
 - [ ] generate P&L reports for executed orders
 
-### _Strategy Management_
+### _**Sprint 4:** Strategy Management_
 
 - [ ] desktop GUI
 - [ ] mobile GUI
@@ -58,6 +50,10 @@
 - [Interactive Brokers](https://www.interactivebrokers.com/en/home.php)
 
 ## **DATA STORAGE**
+
+## **DESIGN PATTERNS**
+
+- JavaScript [design patterns](https://www.patterns.dev)
 
 ## **MARKET DATA**
 

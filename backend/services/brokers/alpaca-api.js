@@ -1,8 +1,10 @@
-const { key, secret } = require("./services/env");
+const Alpaca = require("@alpacahq/alpaca-trade-api");
+const { key, secret, isPaper } = require("../env");
 
-module.exports = () => {
-	this.key = APCA_KEY;
-	this.secret = APCA_SECRET;
-	this.getKey = () => console.log(APCA_KEY);
-	this.getSecret = () => console.log(APCA_SECRET);
-};
+const alpacaAPI = new Alpaca({
+	keyId: key,
+	secretKey: secret,
+	paper: isPaper,
+});
+
+module.exports = alpacaAPI;
