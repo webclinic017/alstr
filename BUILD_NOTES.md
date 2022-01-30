@@ -6,15 +6,17 @@
 
 ### _**Sprint 1:** Backtesting_
 
-- [ ] fetch historical stock market data
-- [ ] store historical market data
-- [ ] backtest strategy using historical market data
+- [ ] create db to bulk-seed historical market data (RDB, DDB, or ODS?)
+- [ ] fetch new daily historical market data (setup API services)
+- [ ] insert new daily historical market data in db
+- [ ] train machine-learning model (Tensorflow.js)
+- [ ] backtest strategy using historical market data (serverless function?)
 - [ ] generate backtesting P&L reports
 
 ### _**Sprint 2:** Forward Testing_
 
 - [ ] stream real-time market data
-- [ ] store real-time market data
+- [ ] cache real-time market data (?)
 - [ ] forward test strategy using real-time market data
 - [ ] generate forward testing P&L reports
 
