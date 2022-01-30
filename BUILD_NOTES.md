@@ -47,6 +47,7 @@
 
 ## **ARCHITECTURE**
 
+- [algo-trading on AWS](https://aws.amazon.com/blogs/industries/algorithmic-trading-on-aws-with-amazon-sagemaker-and-aws-data-exchange/)
 - Alpaca [React Native App](https://github.com/hackingthemarkets/alpaca-react-native)
 - Full Stack [Trading App Tutorial](https://hackingthemarkets.com/)
 - hosting projects [on a budget](https://www.youtube.com/watch?v=Kx_1NYYJS7Q&list=WL&index=5)
@@ -83,6 +84,8 @@
 ![alstr issues graphic](./readme/bn_issues.png)
 
 ![alstr questions graphic](./readme/bn_questions.png)
+
+- [ ] how to set up eslint globals to define environment variables
 
 ![alstr lessons-learned graphic](./readme/bn_lessons-learned.png)
 

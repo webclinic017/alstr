@@ -1,4 +1,4 @@
-const { APCA_KEY, APCA_SECRET } = require("../config/env.js");
+const { key, secret } = require("./services/config/env");
 
 module.exports = () => {
 	this.key = APCA_KEY;
