@@ -1,4 +1,4 @@
-const URLS = require("./urlConstants");
+const URLS = require("./urls");
 const __PAPER__ = true;
 
 module.exports = __PAPER__
