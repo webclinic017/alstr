@@ -4,7 +4,7 @@ ALSTR is a full algo-trading platform that will include backtesting, forward tes
 
 ALSTR is **very** early in development. That being said, I thought it'd be more fun to build it in public;) If you have any feedback, input, suggestions, advice - I'd love to hear it. **_[Hit me up!](mailto:github@ephraimsmith.dev)_**
 
-**_:bangbang: Check out [`BUILD_NOTES.md`](https://github.com/ephraimsmithdev/alstr/blob/prod/BUILD_NOTES.md) for project resources, notes, issues, & the rest of the dirt! :bangbang:_**
+**_:bangbang: Check out [`BUILD_NOTES.md`](https://github.com/ephraimsmithdev/alstr/blob/prod/BUILD_NOTES.md) for project timeline, progress, resources, notes, issues, & the rest of the dirt!_**
 
 ![alstr install & run graphic](./readme/rm_install-run.png)
 

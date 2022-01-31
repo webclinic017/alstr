@@ -1,0 +1,21 @@
+{
+	"name": "alstr_backend",
+	"version": "0.1.0",
+	"description": "ephraim smith's algo-trading strategy",
+	"main": "server.js",
+	"repository": "https://github.com/ephraimsmithdev/alstr",
+	"author": "Ephraim Smith",
+	"license": "MIT",
+	"private": false,
+	"devDependencies": {
+		"dotenv": "^14.3.2",
+		"nodemon": "^2.0.15"
+	},
+	"dependencies": {
+		"@alpacahq/alpaca-trade-api": "^2.12.1",
+		"axios": "^0.25.0"
+	},
+	"scripts": {
+		"dev": "nodemon server.js"
+	}
+}

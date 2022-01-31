@@ -2,38 +2,32 @@
 
 <!-- #region info -->
 
-## **RESEARCH**
+## **ROADMAP**
 
-- [ ] trading strategy indicators/triggers
-- [ ] cloud architecture design
-- [ ] market data sources
-- [ ] brokers/APIs
-- [ ] cloud hosting options (performance, cost)
+### _**Sprint 1:** Backtesting_
 
-## **DEVELOPMENT**
-
-### _Backtesting_
-
-- [ ] fetch historical stock market data
-- [ ] store historical market data
-- [ ] backtest strategy using historical market data
+- [ ] create db to bulk-seed historical market data (RDB, DDB, or ODS?)
+- [ ] fetch new daily historical market data (setup API services)
+- [ ] insert new daily historical market data in db
+- [ ] train machine-learning model (Tensorflow.js)
+- [ ] backtest strategy using historical market data (serverless function?)
 - [ ] generate backtesting P&L reports
 
-### _Forward Testing_
+### _**Sprint 2:** Forward Testing_
 
 - [ ] stream real-time market data
-- [ ] store real-time market data
+- [ ] cache real-time market data (?)
 - [ ] forward test strategy using real-time market data
 - [ ] generate forward testing P&L reports
 
-### _Run Strategy_
+### _**Sprint 3:** Run Strategy_
 
 - [ ] run strategy against real-time market data
 - [ ] execute orders based on strategy entry/exit triggers
 - [ ] send push notifications to assigned devices
 - [ ] generate P&L reports for executed orders
 
-### _Strategy Management_
+### _**Sprint 4:** Strategy Management_
 
 - [ ] desktop GUI
 - [ ] mobile GUI
@@ -47,6 +41,7 @@
 
 ## **ARCHITECTURE**
 
+- [algo-trading on AWS](https://aws.amazon.com/blogs/industries/algorithmic-trading-on-aws-with-amazon-sagemaker-and-aws-data-exchange/)
 - Alpaca [React Native App](https://github.com/hackingthemarkets/alpaca-react-native)
 - Full Stack [Trading App Tutorial](https://hackingthemarkets.com/)
 - hosting projects [on a budget](https://www.youtube.com/watch?v=Kx_1NYYJS7Q&list=WL&index=5)
@@ -57,6 +52,10 @@
 - [Interactive Brokers](https://www.interactivebrokers.com/en/home.php)
 
 ## **DATA STORAGE**
+
+## **DESIGN PATTERNS**
+
+- JavaScript [design patterns](https://www.patterns.dev)
 
 ## **MARKET DATA**
 
@@ -83,6 +82,8 @@
 ![alstr issues graphic](./readme/bn_issues.png)
 
 ![alstr questions graphic](./readme/bn_questions.png)
+
+- [ ] how to set up eslint globals to define environment variables
 
 ![alstr lessons-learned graphic](./readme/bn_lessons-learned.png)
 
