@@ -2,9 +2,9 @@
 
 ALSTR is a full algo-trading platform that will include backtesting, forward testing, strategy execution, P&L report generation, AI-influenced strategy optimization, and strategy management via mobile interface.
 
-ALSTR is **very** early in development. That being said, I thought it'd be more fun to build it in public;) If you have any feedback, input, suggestions, advice - I'd love to hear it. **_[Hit me up!](mailto:github@ephraimsmith.dev)_**
+ALSTR is **very** early in development. That being said, I thought it'd be more fun to build it in public;) If you have any feedback, input, suggestions, advice - **_[hit me up!](mailto:github@ephraimsmith.dev)_**
 
-**_:bangbang: Check out [`BUILD_NOTES.md`](https://github.com/ephraimsmithdev/alstr/blob/prod/BUILD_NOTES.md) for project timeline, progress, resources, notes, issues, & the rest of the dirt!_**
+**_:bangbang: Check out [`BUILD_NOTES.md`](https://github.com/ephraimsmithdev/alstr/blob/prod/BUILD_NOTES.md) for project timeline, progress, resources, notes, issues, & more!_**
 
 ![alstr install & run graphic](./readme/rm_install-run.png)
 
@@ -38,11 +38,17 @@ Coming soon...
 
 ![alstr shout outs graphic](./readme/rm_shout-outs.png)
 
-### **_Infinite Red_**
+## **_Infinite Red_**
+
+[![GitHub followers](https://img.shields.io/github/stars/infinitered?label=/infinitered&style=social)](https://github.com/infinitered)
+[![Twitter Follow](https://img.shields.io/twitter/follow/infinite_red?label=@infinite_red&style=social)](https://twitter.com/infinite_red)
 
 - React Native [Ignite](https://github.com/infinitered/ignite) boilerplate
 
-### **_Jeffrey Hyer_**
+## **_Jeffrey Hyer_**
+
+[![GitHub followers](https://img.shields.io/github/stars/JeffreyHyer?label=/JeffreyHyer&style=social)](https://github.com/JeffreyHyer)
+[![Twitter Follow](https://img.shields.io/twitter/follow/JeffreyHyer?label=@JeffreyHyer&style=social)](https://twitter.com/JeffreyHyer)
 
 - Node.js algo-trading [backtesting & execution engine](https://github.com/JeffreyHyer/grandmaster)
 
