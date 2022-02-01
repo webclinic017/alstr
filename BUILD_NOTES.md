@@ -59,6 +59,7 @@
 - [Alpaca React Native App](https://github.com/hackingthemarkets/alpaca-react-native)
 - [Full Stack Trading App Tutorial](https://hackingthemarkets.com/)
 - [hosting projects on a budget](https://www.youtube.com/watch?v=Kx_1NYYJS7Q&list=WL&index=5)
+- [how to start with algo trading](https://wire.insiderfinance.io/how-to-start-with-algo-trading-learning-path-process-flow-design-and-data-analytics-bdd592e262e0)
 
 ## **Brokers**
 
