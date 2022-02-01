@@ -1,5 +1,5 @@
 let Alpaca = require("@alpacahq/alpaca-trade-api");
-const { key, secret, isPaper } = require("./config/paper_or_live");
+const { key, secret, isPaper } = require("./config/alpacaEnv");
 const Axios = require("axios");
 
 class AlpacaService {
@@ -12,7 +12,7 @@ class AlpacaService {
 	}
 
 	// ----------------------------------------------------------
-	// -- ACCOUNT
+	// -- ACCOUNT INFO
 	// ----------------------------------------------------------
 	async getAlpacaAccount() {
 		try {
@@ -22,6 +22,8 @@ class AlpacaService {
 			return error;
 		}
 	}
+
+	async getAccountConfigs() {}
 
 	// ----------------------------------------------------------
 	// -- DATA
@@ -33,37 +35,21 @@ class AlpacaService {
 			end: end,
 			timeframe: "1Min",
 		};
-		let axiosConfig = {
-			baseURL: "https://data.alpaca.markets",
-			url: `/v2/stocks/${symbol}/bars`,
-			params: {
-				start: start,
-				end: end,
-				limit: limit,
-				timeframe: "1Min",
-			},
-			// ,
-			// headers: {
-			// 	"APCA-API-KEY-ID": process.env.APCA_KEY_PAPER,
-			// 	"APCA-API-SECRET-KEY": process.env.APCA_SECRET_PAPER,
-			// },
-		};
 
 		try {
 			const minBars = await this.alpaca.getBarsV2(symbol, requestOptions);
 
-			// for await (let minBar of minBars) {
-			// 	console.log("MIN_BARS >>\n", minBar);
-			// }
-			console.log(minBars);
-			// const raw = await Axios(axiosConfig);
-			// const res = raw.data;
-
-			// console.log(raw.data);
+			for await (let minBar of minBars) {
+				console.log("MIN_BARS >>\n", minBar);
+			}
 		} catch (error) {
 			console.log("ERROR >>\n", error);
 		}
 	}
+
+	// ----------------------------------------------------------
+	// -- ORDER EXECUTION
+	// ----------------------------------------------------------
 }
 
 module.exports = AlpacaService;

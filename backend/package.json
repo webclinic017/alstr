@@ -2,7 +2,7 @@
 	"name": "alstr_backend",
 	"version": "0.1.0",
 	"description": "ephraim smith's algo-trading strategy",
-	"main": "server.js",
+	"main": "./src/server.js",
 	"repository": "https://github.com/ephraimsmithdev/alstr",
 	"author": "Ephraim Smith",
 	"license": "MIT",
