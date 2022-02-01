@@ -1,6 +1,6 @@
 ![alstr build notes graphic](./readme/bn_title.png)
 
-<!-- #region info -->
+<!-- #region roadmap -->
 
 ## **ROADMAP**
 
@@ -33,7 +33,7 @@
 - [ ] mobile GUI
 - [ ] web GUI
 
-<!-- #endregion /info -->
+<!-- #endregion /roadmap -->
 
 <!-- #region resources -->
 
@@ -81,11 +81,11 @@
 
 ![alstr issues graphic](./readme/bn_issues.png)
 
+![alstr lessons-learned graphic](./readme/bn_lessons-learned.png)
+
 ![alstr questions graphic](./readme/bn_questions.png)
 
 - [ ] how to set up eslint globals to define environment variables
-
-![alstr lessons-learned graphic](./readme/bn_lessons-learned.png)
 
 <!-- #region connect -->
 
