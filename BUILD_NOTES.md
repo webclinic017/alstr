@@ -4,14 +4,19 @@
 
 ## **ROADMAP**
 
-### _**Sprint 1:** Backtesting_
+### _**SPRINT 1:** Backtesting_
 
-- [ ] create db to bulk-seed historical market data (RDB, DDB, or ODS?)
+**Week 1:** Jan 31 - Feb 6
+
 - [ ] fetch new daily historical market data (setup API services)
+- [ ] create db to bulk-seed historical market data (RDB, DDB, or ODS?)
 - [ ] insert new daily historical market data in db
-- [ ] train machine-learning model (Tensorflow.js)
+
+**Week 2:** Feb 7 - Feb 13
+
 - [ ] backtest strategy using historical market data (serverless function?)
 - [ ] generate backtesting P&L reports
+- [ ] _start researching machine-learning models using [Tensorflow.js](https://www.tensorflow.org/js/))_
 
 <details>
 <summary><strong>SPRINT 2: </strong> Forward Testing</summary>
