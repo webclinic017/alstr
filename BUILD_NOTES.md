@@ -1,6 +1,6 @@
 ![alstr build notes graphic](./readme/bn_title.png)
 
-<!-- #region info -->
+<!-- #region roadmap -->
 
 ## **ROADMAP**
 
@@ -13,57 +13,72 @@
 - [ ] backtest strategy using historical market data (serverless function?)
 - [ ] generate backtesting P&L reports
 
-### _**Sprint 2:** Forward Testing_
+<details>
+<summary><strong>SPRINT 2: </strong> Forward Testing</summary>
 
 - [ ] stream real-time market data
 - [ ] cache real-time market data (?)
 - [ ] forward test strategy using real-time market data
 - [ ] generate forward testing P&L reports
 
-### _**Sprint 3:** Run Strategy_
+</details>
+
+<details>
+<summary><strong>SPRINT 3: </strong> Strategy Execution</summary>
 
 - [ ] run strategy against real-time market data
 - [ ] execute orders based on strategy entry/exit triggers
 - [ ] send push notifications to assigned devices
 - [ ] generate P&L reports for executed orders
 
-### _**Sprint 4:** Strategy Management_
+</details>
+
+<details>
+<summary><strong>SPRINT 4: </strong> Strategy Management</summary>
 
 - [ ] desktop GUI
 - [ ] mobile GUI
 - [ ] web GUI
 
-<!-- #endregion /info -->
+</details>
+
+<!-- #endregion /roadmap -->
 
 <!-- #region resources -->
 
 ![alstr resources graphic](./readme/bn_resources.png)
 
-## **ARCHITECTURE**
+## **Architecture**
 
 - [algo-trading on AWS](https://aws.amazon.com/blogs/industries/algorithmic-trading-on-aws-with-amazon-sagemaker-and-aws-data-exchange/)
-- Alpaca [React Native App](https://github.com/hackingthemarkets/alpaca-react-native)
-- Full Stack [Trading App Tutorial](https://hackingthemarkets.com/)
-- hosting projects [on a budget](https://www.youtube.com/watch?v=Kx_1NYYJS7Q&list=WL&index=5)
+- [Alpaca React Native App](https://github.com/hackingthemarkets/alpaca-react-native)
+- [Full Stack Trading App Tutorial](https://hackingthemarkets.com/)
+- [hosting projects on a budget](https://www.youtube.com/watch?v=Kx_1NYYJS7Q&list=WL&index=5)
 
-## **BROKERS**
+## **Brokers**
 
 - [Alpaca](https://alpaca.markets/)
 - [Interactive Brokers](https://www.interactivebrokers.com/en/home.php)
 
-## **DATA STORAGE**
+## **Databases**
 
-## **DESIGN PATTERNS**
+- [PostreSQL](https://www.postgresql.org/)
+- [SupaBase](https://supabase.com/)
 
-- JavaScript [design patterns](https://www.patterns.dev)
+## **Design Patterns**
 
-## **MARKET DATA**
+- [JavaScript design patterns](https://www.patterns.dev)
+- [API Design Patterns For REST](https://blog.stoplight.io/api-design-patterns-for-rest-web-services)
+- [patterns.dev](https://www.patterns.dev)
 
-- Alpaca: [JavaScript SKD](https://github.com/alpacahq/alpaca-trade-api-js)
+## **Market Data**
 
-## **TECHNICAL ANALYSIS**
+- [Alpaca](https://alpaca.markets/docs/api-documentation/api-v2/)
+- [AlphaVantage](https://www.alphavantage.co/)
+- [Finnhub](https://finnhub.io/)
+- [IEX]()
 
-## **TRADING STRATEGIES**
+## **Strategy Design**
 
 - Better Trading System: [YouTube]() | [podcast]()
 - Bloom Trading: [Udemy courses](https://www.udemy.com/user/mtg-team/)
@@ -81,11 +96,11 @@
 
 ![alstr issues graphic](./readme/bn_issues.png)
 
+![alstr lessons-learned graphic](./readme/bn_lessons-learned.png)
+
 ![alstr questions graphic](./readme/bn_questions.png)
 
 - [ ] how to set up eslint globals to define environment variables
-
-![alstr lessons-learned graphic](./readme/bn_lessons-learned.png)
 
 <!-- #region connect -->
 
