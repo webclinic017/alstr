@@ -73,8 +73,8 @@
 
 ## **Design Patterns**
 
-- [JavaScript design patterns](https://www.patterns.dev)
 - [API Design Patterns For REST](https://blog.stoplight.io/api-design-patterns-for-rest-web-services)
+- [JavaScript design patterns](https://www.patterns.dev)
 - [patterns.dev](https://www.patterns.dev)
 
 ## **Market Data**
@@ -84,10 +84,11 @@
 - [Finnhub](https://finnhub.io/)
 - [IEX]()
 
-## **Strategy Design**
+## **Strategy/System Design**
 
 - Better Trading System: [YouTube]() | [podcast]()
 - Bloom Trading: [Udemy courses](https://www.udemy.com/user/mtg-team/)
+- [trading algorithms explained](https://www.youtube.com/watch?v=YVqxCrxKC_c)
 
 <!-- #endregion /resources -->
 
