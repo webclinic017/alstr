@@ -1,5 +1,5 @@
 let Alpaca = require("@alpacahq/alpaca-trade-api");
-const { key, secret, isPaper } = require("./config/env");
+const { key, secret, isPaper } = require("./config/paper_or_live");
 
 class AlpacaService {
 	constructor() {
@@ -12,8 +12,8 @@ class AlpacaService {
 
 	async getAlpacaAccount() {
 		try {
-			const alpacaAccount = await this.alpaca.getAccount();
-			return alpacaAccount;
+			const account = await this.alpaca.getAccount();
+			return account;
 		} catch (error) {
 			return error;
 		}
