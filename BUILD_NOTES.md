@@ -9,12 +9,12 @@
 **Week 1:** Jan 31 - Feb 6
 
 - [ ] fetch historical market data
-- [ ] insert historical data into database for backtesting
+- [ ] insert data into database for backtesting
 
 **Week 2:** Feb 7 - Feb 13
 
-- [ ] backtest strategy using historical market data
-- [ ] generate backtesting P&L reports
+- [ ] backtest an example strategy against stored data
+- [ ] generate P&L reports from backtest
 - [ ] _start researching machine-learning models using [Tensorflow.js](https://www.tensorflow.org/js/))_
 
 <details>
