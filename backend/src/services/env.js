@@ -1,4 +1,4 @@
-const URLS = require("../../constants/data-urls");
+const URLS = require("../constants/data-urls");
 const __PAPER__ = true;
 
 module.exports = __PAPER__
