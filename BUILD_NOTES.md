@@ -8,13 +8,12 @@
 
 **Week 1:** Jan 31 - Feb 6
 
-- [ ] fetch new daily historical market data (setup API services)
-- [ ] create db to bulk-seed historical market data (RDB, DDB, or ODS?)
-- [ ] insert new daily historical market data in db
+- [ ] fetch historical market data
+- [ ] insert historical data into database for backtesting
 
 **Week 2:** Feb 7 - Feb 13
 
-- [ ] backtest strategy using historical market data (serverless function?)
+- [ ] backtest strategy using historical market data
 - [ ] generate backtesting P&L reports
 - [ ] _start researching machine-learning models using [Tensorflow.js](https://www.tensorflow.org/js/))_
 
@@ -96,8 +95,11 @@
 
 ![alstr notes graphic](./readme/bn_notes.png)
 
+- Alpaca `bars` response object | [Symbol.asyncIterator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/asyncIterator)
+  - use `for await...of` to loop over bar objects
 - [ESLint](https://eslint.org/docs/about/)
   - using it for project configs (Ignite's `__dev__` global)
+- [RFC 3339 time format](https://datatracker.ietf.org/doc/html/rfc3339)
 
 <!-- #endregion /notes -->
 
