@@ -1,7 +1,6 @@
 const Alpaca = require("@alpacahq/alpaca-trade-api");
 
-/**
- * AVAILABLE PROPERTIES:
+/** AVAILABLE PROPERTIES:
  *
  * baseUrl (account)
  * dataBaseUrl (historical data)
@@ -15,6 +14,7 @@ const Alpaca = require("@alpacahq/alpaca-trade-api");
  * exchanges: comma-separated string || list of strings
  *
  */
+
 const AlpacaPaperAPI = new Alpaca({
   keyId: process.env.ALPACA_KEY_PAPER,
   secretKey: process.env.ALPACA_SECRET_PAPER,

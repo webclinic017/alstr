@@ -1,8 +1,10 @@
 const Alpaca = require("@alpacahq/alpaca-trade-api");
 const { ALPACA_DATA } = require("../../constants/urls");
+const KEY = process.env.ALPACA_KEY_PAPER;
+const SECRET = process.env.ALPACA_SECRET_PAPER;
+const dataBaseUrl = ALPACA_DATA;
 
-/**
- * AVAILABLE PROPERTIES:
+/** AVAILABLE PROPERTIES:
  *
  * baseUrl (account)
  * dataBaseUrl (historical data)
@@ -16,10 +18,11 @@ const { ALPACA_DATA } = require("../../constants/urls");
  * exchanges: comma-separated string || list of strings
  *
  */
+
 const AlpacaData = new Alpaca({
-  keyId: process.env.ALPACA_KEY_PAPER,
-  secretKey: process.env.ALPACA_SECRET_PAPER,
-  dataBaseUrl: ALPACA_DATA,
+  keyId: KEY,
+  secretKey: SECRET,
+  dataBaseUrl,
 });
 
 module.exports = AlpacaData;
