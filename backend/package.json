@@ -1,23 +1,23 @@
 {
-	"name": "alstr_backend",
-	"version": "0.1.0",
-	"description": "ephraim smith's algo-trading strategy",
-	"main": "./src/server.js",
-	"repository": "https://github.com/ephraimsmithdev/alstr",
-	"author": "Ephraim Smith",
-	"license": "MIT",
-	"private": false,
-	"devDependencies": {
-		"@types/node": "^17.0.13",
-		"dotenv": "^14.3.2",
-		"nodemon": "^2.0.15",
-		"typescript": "^4.5.5"
-	},
-	"dependencies": {
-		"@alpacahq/alpaca-trade-api": "^2.12.1",
-		"axios": "^0.25.0"
-	},
-	"scripts": {
-		"dev": "nodemon server.js"
-	}
+  "name": "alstr_backend",
+  "version": "0.1.0",
+  "description": "ephraim smith's algo-trading strategy",
+  "main": "./src/index.js",
+  "repository": "https://github.com/ephraimsmithdev/alstr",
+  "author": "Ephraim Smith",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^17.0.13",
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@alpacahq/alpaca-trade-api": "^2.12.1",
+    "axios": "^0.25.0"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  }
 }
