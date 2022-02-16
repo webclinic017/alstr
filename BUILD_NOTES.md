@@ -1,4 +1,4 @@
-![alstr build notes graphic](./readme/bn_title.png)
+![alstr build notes graphic](./assets/readme/bn_title.png)
 
 <!-- #region roadmap -->
 
@@ -40,7 +40,7 @@
 
 <!-- #region resources -->
 
-![alstr resources graphic](./readme/bn_resources.png)
+![alstr resources graphic](./assets/readme/bn_resources.png)
 
 ## **Architecture**
 
@@ -83,7 +83,7 @@
 
 <!-- #region notes -->
 
-![alstr notes graphic](./readme/bn_notes.png)
+![alstr notes graphic](./assets/readme/bn_notes.png)
 
 - Alpaca `bars` response object | [Symbol.asyncIterator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/asyncIterator)
   - use `for await...of` to loop over bar objects
@@ -93,27 +93,26 @@
 
 <!-- #endregion /notes -->
 
-![alstr issues graphic](./readme/bn_issues.png)
+![alstr issues graphic](./assets/readme/bn_issues.png)
 
-![alstr lessons-learned graphic](./readme/bn_lessons-learned.png)
+![alstr lessons-learned graphic](./assets/readme/bn_lessons-learned.png)
 
-![alstr questions graphic](./readme/bn_questions.png)
+![alstr questions graphic](./assets/readme/bn_questions.png)
 
 - [ ] how to set up eslint globals to define environment variables
 
 <!-- #region connect -->
 
-![alstr connect graphic](./readme/rm_connect.png)
+![alstr connect graphic](./assets/readme/rm_connect.png)
 
-<div align='center'>
-
-[Twitter](https://twitter.com/ephraimsmithdev) |
-[email](mailto:github@ephraimsmith.dev) |
-[ephraimsmith.dev](https://ephraimsmith.dev) |
-[LinkedIn](https://linkedin.com/in/ephraimsmithdev) |
-[Instagram](https://instagram.com/ephraimsmithdev) |
-[GitHub](https://github.com/ephraimsmithdev)
-
-</div>
+<table align='center'>
+  <tr >
+    <td style="border: none;"><a alt='icon link to modevx github account' href='https://github.com/modevx' target='_blank'><img src="https://cdn.iconscout.com/icon/free/png-256/github-157-675821.png" width="90"></a></td> 
+    <td style="border: none;"><a alt='icon link to modevx twitter account' href='https://twitter.com/_modevx' target='_blank'><img src="https://cdn.iconscout.com/icon/free/png-256/twitter-235-675852.png" width="90"></a></td>                      
+    <td style="border: none;"><a alt='icon link to modevx email' href='mailto:ephraim@modevx.com' target='_blank'><img src="https://cdn.iconscout.com/icon/free/png-256/email-letter-envelope-message-38065.png" width="90"></a></td>  
+    <td style="border: none;"><a alt='icon link to ephraim smiths linkedin account' href='https://linkedin.com/in/ephraimjsmith' target='_blank'><img src="https://cdn.iconscout.com/icon/free/png-256/linkedin-187-675833.png" width="90"></a></td>
+    <td style="border: none;"><a alt='icon link to modevx instagram account' href='https://instagram.com/_modevx' target='_blank'><img src="https://cdn.iconscout.com/icon/free/png-256/instagram-2752153-2284970.png" width="90"></a></td>
+  </tr>
+</table>
 
 <!-- #endregion /connect -->
