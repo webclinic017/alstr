@@ -2,49 +2,39 @@
 
 <!-- #region roadmap -->
 
-## **ROADMAP**
-
-### _**SPRINT 1:** Backtesting_
-
-**Week 1:** Jan 31 - Feb 6
+## **SPRINT 1 REQUIREMENTS**
 
 - [ ] fetch historical market data
 - [ ] insert data into database for backtesting
-
-**Week 2:** Feb 7 - Feb 13
-
 - [ ] backtest an example strategy against stored data
+
+## **SPRINT 2 REQUIREMENTS**
+
 - [ ] generate P&L reports from backtest
+- [ ] mobile GUI
+
+## **SPRINT 3 REQUIREMENTS**
+
 - [ ] _start researching machine-learning models using [Tensorflow.js](https://www.tensorflow.org/js/))_
-
-<details>
-<summary><strong>SPRINT 2: </strong> Forward Testing</summary>
-
 - [ ] stream real-time market data
 - [ ] cache real-time market data (?)
 - [ ] forward test strategy using real-time market data
+
+## **SPRINT 4 REQUIREMENTS**
+
 - [ ] generate forward testing P&L reports
+- [ ] desktop GUI
 
-</details>
-
-<details>
-<summary><strong>SPRINT 3: </strong> Strategy Execution</summary>
+## **SPRINT 5 REQUIREMENTS**
 
 - [ ] run strategy against real-time market data
 - [ ] execute orders based on strategy entry/exit triggers
 - [ ] send push notifications to assigned devices
+
+## **SPRINT 6 REQUIREMENTS**
+
 - [ ] generate P&L reports for executed orders
-
-</details>
-
-<details>
-<summary><strong>SPRINT 4: </strong> Strategy Management</summary>
-
-- [ ] desktop GUI
-- [ ] mobile GUI
 - [ ] web GUI
-
-</details>
 
 <!-- #endregion /roadmap -->
 
