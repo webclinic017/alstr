@@ -1,56 +1,46 @@
-![alstr build notes graphic](./readme/bn_title.png)
+![alstr build notes graphic](./assets/readme/bn_title.png)
 
 <!-- #region roadmap -->
 
-## **ROADMAP**
-
-### _**SPRINT 1:** Backtesting_
-
-**Week 1:** Jan 31 - Feb 6
+## **SPRINT 1 REQUIREMENTS**
 
 - [ ] fetch historical market data
 - [ ] insert data into database for backtesting
-
-**Week 2:** Feb 7 - Feb 13
-
 - [ ] backtest an example strategy against stored data
+
+## **SPRINT 2 REQUIREMENTS**
+
 - [ ] generate P&L reports from backtest
+- [ ] mobile GUI
+
+## **SPRINT 3 REQUIREMENTS**
+
 - [ ] _start researching machine-learning models using [Tensorflow.js](https://www.tensorflow.org/js/))_
-
-<details>
-<summary><strong>SPRINT 2: </strong> Forward Testing</summary>
-
 - [ ] stream real-time market data
 - [ ] cache real-time market data (?)
 - [ ] forward test strategy using real-time market data
+
+## **SPRINT 4 REQUIREMENTS**
+
 - [ ] generate forward testing P&L reports
+- [ ] desktop GUI
 
-</details>
-
-<details>
-<summary><strong>SPRINT 3: </strong> Strategy Execution</summary>
+## **SPRINT 5 REQUIREMENTS**
 
 - [ ] run strategy against real-time market data
 - [ ] execute orders based on strategy entry/exit triggers
 - [ ] send push notifications to assigned devices
+
+## **SPRINT 6 REQUIREMENTS**
+
 - [ ] generate P&L reports for executed orders
-
-</details>
-
-<details>
-<summary><strong>SPRINT 4: </strong> Strategy Management</summary>
-
-- [ ] desktop GUI
-- [ ] mobile GUI
 - [ ] web GUI
-
-</details>
 
 <!-- #endregion /roadmap -->
 
 <!-- #region resources -->
 
-![alstr resources graphic](./readme/bn_resources.png)
+![alstr resources graphic](./assets/readme/bn_resources.png)
 
 ## **Architecture**
 
@@ -93,7 +83,7 @@
 
 <!-- #region notes -->
 
-![alstr notes graphic](./readme/bn_notes.png)
+![alstr notes graphic](./assets/readme/bn_notes.png)
 
 - Alpaca `bars` response object | [Symbol.asyncIterator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/asyncIterator)
   - use `for await...of` to loop over bar objects
@@ -103,27 +93,26 @@
 
 <!-- #endregion /notes -->
 
-![alstr issues graphic](./readme/bn_issues.png)
+![alstr issues graphic](./assets/readme/bn_issues.png)
 
-![alstr lessons-learned graphic](./readme/bn_lessons-learned.png)
+![alstr lessons-learned graphic](./assets/readme/bn_lessons-learned.png)
 
-![alstr questions graphic](./readme/bn_questions.png)
+![alstr questions graphic](./assets/readme/bn_questions.png)
 
 - [ ] how to set up eslint globals to define environment variables
 
 <!-- #region connect -->
 
-![alstr connect graphic](./readme/rm_connect.png)
+![alstr connect graphic](./assets/readme/rm_connect.png)
 
-<div align='center'>
-
-[Twitter](https://twitter.com/ephraimsmithdev) |
-[email](mailto:github@ephraimsmith.dev) |
-[ephraimsmith.dev](https://ephraimsmith.dev) |
-[LinkedIn](https://linkedin.com/in/ephraimsmithdev) |
-[Instagram](https://instagram.com/ephraimsmithdev) |
-[GitHub](https://github.com/ephraimsmithdev)
-
-</div>
+<table align='center'>
+  <tr >
+    <td style="border: none;"><a alt='icon link to modevx github account' href='https://github.com/modevx' target='_blank'><img src="https://cdn.iconscout.com/icon/free/png-256/github-157-675821.png" width="90"></a></td> 
+    <td style="border: none;"><a alt='icon link to modevx twitter account' href='https://twitter.com/_modevx' target='_blank'><img src="https://cdn.iconscout.com/icon/free/png-256/twitter-235-675852.png" width="90"></a></td>                      
+    <td style="border: none;"><a alt='icon link to modevx email' href='mailto:ephraim@modevx.com' target='_blank'><img src="https://cdn.iconscout.com/icon/free/png-256/email-letter-envelope-message-38065.png" width="90"></a></td>  
+    <td style="border: none;"><a alt='icon link to ephraim smiths linkedin account' href='https://linkedin.com/in/ephraimjsmith' target='_blank'><img src="https://cdn.iconscout.com/icon/free/png-256/linkedin-187-675833.png" width="90"></a></td>
+    <td style="border: none;"><a alt='icon link to modevx instagram account' href='https://instagram.com/_modevx' target='_blank'><img src="https://cdn.iconscout.com/icon/free/png-256/instagram-2752153-2284970.png" width="90"></a></td>
+  </tr>
+</table>
 
 <!-- #endregion /connect -->
