@@ -1,4 +1,4 @@
-![alstr build notes graphic](./assets/readme/bn_title.png)
+![alstr build notes graphic](./assets/docs/bn_title.png)
 
 <!-- #region roadmap -->
 
@@ -40,7 +40,7 @@
 
 <!-- #region resources -->
 
-![alstr resources graphic](./assets/readme/bn_resources.png)
+![alstr resources graphic](./assets/docs/bn_resources.png)
 
 ## **Architecture**
 
@@ -83,7 +83,7 @@
 
 <!-- #region notes -->
 
-![alstr notes graphic](./assets/readme/bn_notes.png)
+![alstr notes graphic](./assets/docs/bn_notes.png)
 
 - Alpaca `bars` response object | [Symbol.asyncIterator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/asyncIterator)
   - use `for await...of` to loop over bar objects
@@ -93,17 +93,17 @@
 
 <!-- #endregion /notes -->
 
-![alstr issues graphic](./assets/readme/bn_issues.png)
+![alstr issues graphic](./assets/docs/bn_issues.png)
 
-![alstr lessons-learned graphic](./assets/readme/bn_lessons-learned.png)
+![alstr lessons-learned graphic](./assets/docs/bn_lessons-learned.png)
 
-![alstr questions graphic](./assets/readme/bn_questions.png)
+![alstr questions graphic](./assets/docs/bn_questions.png)
 
 - [ ] how to set up eslint globals to define environment variables
 
 <!-- #region connect -->
 
-![alstr connect graphic](./assets/readme/rm_connect.png)
+![alstr connect graphic](./assets/docs/rm_connect.png)
 
 <table align='center'>
   <tr >

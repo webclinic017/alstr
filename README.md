@@ -1,4 +1,9 @@
-![alstr title graphic](./assets/readme/rm_title.png)
+<!-- #region INTRO -->
+<div id='top' align='center'>
+
+![alstr title graphic](./assets/docs/rm_title.png)
+
+</div>
 
 ALSTR is a full algo-trading platform that will include backtesting, forward testing, strategy execution, P&L report generation, AI-influenced strategy optimization, and strategy management via mobile interface.
 
@@ -6,37 +11,31 @@ ALSTR is **very** early in development. That being said, I thought it'd be more 
 
 **_:bangbang: Check out [`BUILD_NOTES.md`](https://github.com/ephraimsmithdev/alstr/blob/prod/BUILD_NOTES.md) for project timeline, progress, resources, notes, issues, & more!_**
 
-![alstr install & run graphic](./assets/readme/rm_install-run.png)
+<!-- #endregion /INTRO -->
 
-close repo
+<!-- #region DEPENDENCIES -->
+<div id='deps' align='center'>
 
-```shellscript
-git clone https://github.com/ephraimsmithdev/alstr.git
-```
+![project dependencies section graphic](./assets/docs/dependencies.png)
 
-install dependencies
+</div>
 
-```shellscript
-npm i || yarn install
-```
+## **DEPENDENCIES**
 
-run mobile frontend (start's Expo's Metro bundler)
+- [`@alpacahq/alpaca-trade-api`](https://github.com/alpacahq/alpaca-trade-api-js/blob/master/lib/alpaca-trade-api.js)
+- [`axios`](https://github.com/axios/axios#table-of-contents)
 
-```shellscript
-npm run start || yarn run start
-```
+## **DEV DEPENDENCIES**
 
-run backend
+- [`@types/node`](https://github.com/DefinitelyTyped/DefinitelyTyped)
+- [`TypeScript`](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+- [`dotenv`](https://github.com/motdotla/dotenv)
+- [`jest`](https://jestjs.io/)
+- [`nodemon`](https://github.com/remy/nodemon#nodemon)
 
-```shellscript
-Coming soon...
-```
+<!-- #endregion /DEPENDENCIES -->
 
-![alstr how to use graphic](./assets/readme/rm_how-to-use.png)
-
-Coming soon...
-
-![alstr shout outs graphic](./assets/readme/rm_shout-outs.png)
+![alstr shout outs graphic](./assets/docs/rm_shout-outs.png)
 
 ## **_Infinite Red_**
 
@@ -52,7 +51,7 @@ Coming soon...
 
 - Node.js algo-trading [backtesting & execution engine](https://github.com/JeffreyHyer/grandmaster)
 
-![alstr license graphic](./assets/readme/rm_license.png)
+![alstr license graphic](./assets/docs/rm_license.png)
 
 ## **MIT**
 
@@ -62,11 +61,11 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-![alstr contribute graphic](./assets/readme/rm_contribute.png)
+![alstr contribute graphic](./assets/docs/rm_contribute.png)
 
-I'm totally open to all feedback, input, advice, critiques, or the like. Fork it & make a pull request. Shoot me an email. Find me on the web.
+I'm totally open to all feedback, input, advice, critiques, or the like. Fork it & make a pull request. Check out the 'connect' section below:
 
-![alstr connect graphic](./assets/readme/rm_connect.png)
+![alstr connect graphic](./assets/docs/rm_connect.png)
 
 <table align='center'>
   <tr >
