@@ -1,6 +1,6 @@
 ![alstr build notes graphic](./assets/docs/bn_title.png)
 
-<!-- #region roadmap -->
+<!-- #region ROADMAP -->
 
 ## **SPRINT 1 REQUIREMENTS**
 
@@ -36,9 +36,9 @@
 - [ ] generate P&L reports for executed orders
 - [ ] web GUI
 
-<!-- #endregion /roadmap -->
+<!-- #endregion /ROADMAP -->
 
-<!-- #region resources -->
+<!-- #region RESOURCES -->
 
 ![alstr resources graphic](./assets/docs/bn_resources.png)
 
@@ -79,9 +79,9 @@
 - Bloom Trading: [Udemy courses](https://www.udemy.com/user/mtg-team/)
 - [trading algorithms explained](https://www.youtube.com/watch?v=YVqxCrxKC_c)
 
-<!-- #endregion /resources -->
+<!-- #endregion /RESOURCES -->
 
-<!-- #region notes -->
+<!-- #region NOTES -->
 
 ![alstr notes graphic](./assets/docs/bn_notes.png)
 
@@ -91,17 +91,17 @@
   - using it for project configs (Ignite's `__dev__` global)
 - [RFC 3339 time format](https://datatracker.ietf.org/doc/html/rfc3339)
 
-<!-- #endregion /notes -->
+<!-- #endregion /NOTES -->
 
-![alstr issues graphic](./assets/docs/bn_issues.png)
-
-![alstr lessons-learned graphic](./assets/docs/bn_lessons-learned.png)
+<!-- #region QUESTIONS -->
 
 ![alstr questions graphic](./assets/docs/bn_questions.png)
 
 - [ ] how to set up eslint globals to define environment variables
 
-<!-- #region connect -->
+<!-- #endregion /QUESTIONS -->
+
+<!-- #region CONNECT -->
 
 ![alstr connect graphic](./assets/docs/rm_connect.png)
 
@@ -115,4 +115,4 @@
   </tr>
 </table>
 
-<!-- #endregion /connect -->
+<!-- #endregion /CONNECT -->
