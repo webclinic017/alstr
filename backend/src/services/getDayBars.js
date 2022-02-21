@@ -1,4 +1,4 @@
-const { AlpacaData } = require("../data");
+const { AlpacaData } = require("./data");
 
 exports.getDayBars200 = async () => {
   const bars = await AlpacaData.getBarsV2("HOG", {
