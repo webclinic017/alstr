@@ -1,3 +1,5 @@
+const Alpaca = require("@alpacahq/alpaca-trade-api");
+
 const IS_PAPER = "../../services/Alpaca/api";
 const API_KEY = IS_PAPER
 	? process.env.ALPACA_KEY_PAPER
@@ -8,15 +10,37 @@ const API_SECRET = IS_PAPER
 
 // TODO: pull example function logic out into individual 'action' functions
 
-class MeanReversion_01 {
-	constructor() {}
+class MeanReversion {
+	constructor(key, secret, isPaper, stock) {
+		this.alpaca = new Alpaca({
+			keyId: key,
+			secretKey: secret,
+			paper: isPaper,
+		});
+		this.movingAverage = 0;
+		this.lastOrder = null;
+		this.timeToMarketClose = null;
+	}
 
 	/**
 	 * --
 	 * WAIT FOR MARKET TO OPEN
 	 * --
-	 * 1. run every minute
+	 * 1. set interval to check market time every 60 seconds
 	 */
+	async listen_For_Market_Open() {
+		return await () => {
+			// 1. set interval
+			let isOpen = false;
+			let timeCheck = setInterval(async () => {}, 60000)
+
+			// 2. get market open status
+
+			// 3. IF open THEN clear interval & execute strategy
+
+			// 4. ELSE check market time in another 60 seconds
+		}
+	}
 
 	/**
 	 * --
