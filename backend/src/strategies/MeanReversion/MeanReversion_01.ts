@@ -12,12 +12,14 @@ class MeanReversion_01 {
 	constructor() {}
 
 	/**
+	 * --
 	 * WAIT FOR MARKET TO OPEN
 	 * --
 	 * 1. run every minute
 	 */
 
 	/**
+	 * --
 	 * REBALANCE
 	 * --
 	 * 1. get positions if I have any
@@ -29,6 +31,7 @@ class MeanReversion_01 {
 	 */
 
 	/**
+	 * --
 	 * BUY AT LIMIT
 	 * --
 	 * 1. create/execute order
@@ -37,11 +40,21 @@ class MeanReversion_01 {
 	 */
 
 	/**
+	 * --
 	 * BUY AT MARKET
 	 * --
 	 * 1. create/execute order
 	 * 2. send notification
 	 * 3. handle order error
 	 * 4. handle qty. <= 0; unsent
+	 */
+
+	/**
+	 * --
+	 * RUN STRATEGY FUNC
+	 * --
+	 *
+	 *
+	 *
 	 */
 }
