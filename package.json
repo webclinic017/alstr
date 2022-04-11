@@ -1,7 +1,7 @@
 {
-	"name": "alstr_backend",
+	"name": "alstr",
 	"version": "0.1.0",
-	"description": "ephraim smith's algo-trading strategy",
+	"description": "Ephraim Smith's personal algo-trading platform",
 	"main": "./src/index.js",
 	"repository": "https://github.com/ephraimsmithdev/alstr",
 	"author": "Ephraim Smith",
@@ -12,13 +12,12 @@
 		"axios": "^0.25.0"
 	},
 	"devDependencies": {
-		"@types/node": "^17.0.13",
 		"dotenv": "^16.0.0",
 		"jest": "^27.5.1",
-		"nodemon": "^2.0.15",
-		"typescript": "^4.5.5"
+		"nodemon": "^2.0.15"
 	},
 	"scripts": {
-		"dev": "nodemon server.js"
+		"dev": "nodemon server.js",
+		"test": "jest --watchAll"
 	}
 }
