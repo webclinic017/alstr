@@ -5,6 +5,28 @@
 
 </div>
 
+<div align='right'>
+
+[install](#install) | [use](#use) | [license](#license) | [contribute](#contribute) | [resources](#resources)
+
+</div>
+
+<div align='right'>
+  <a href='https://twitter.com/ephbuilding' alt='social link icon'>
+    <img src='./assets/icon-tw.svg' height='20'/>
+  </a>
+  &nbsp;
+  &nbsp;
+  <a href='mailto:ephraim@modevx.com' alt='social link icon'>
+    <img src='./assets/icon-env.svg' height='20'/>
+  </a>
+  &nbsp;
+  &nbsp;  
+  <a href='https://linkedin.com/in/ephbuilding' alt='social link icon'>
+    <img src='./assets/icon-li.svg' height='20'/>
+  </a>
+</div>
+
 - [ ] gameplan 1st mean-reverting strategy
 - [ ] pseudo-code outline strategy
 - [ ] write minimum acceptance tests
@@ -15,6 +37,52 @@
 
 ![alstr install and run graphic](./assets/install.png)
 
+<div align='right'>
+
+[install](#install) | [use](#use) | [license](#license) | [contribute](#contribute) | [resources](#resources)
+
+</div>
+
+<div align='right'>
+  <a href='https://twitter.com/ephbuilding' alt='social link icon'>
+    <img src='./assets/icon-tw.svg' height='20'/>
+  </a>
+  &nbsp;
+  &nbsp;
+  <a href='mailto:ephraim@modevx.com' alt='social link icon'>
+    <img src='./assets/icon-env.svg' height='20'/>
+  </a>
+  &nbsp;
+  &nbsp;  
+  <a href='https://linkedin.com/in/ephbuilding' alt='social link icon'>
+    <img src='./assets/icon-li.svg' height='20'/>
+  </a>
+</div>
+
+![alster how to use graphic](./assets/use.png)
+
+<div align='right'>
+
+[install](#install) | [use](#use) | [license](#license) | [contribute](#contribute) | [resources](#resources)
+
+</div>
+
+<div align='right'>
+  <a href='https://twitter.com/ephbuilding' alt='social link icon'>
+    <img src='./assets/icon-tw.svg' height='20'/>
+  </a>
+  &nbsp;
+  &nbsp;
+  <a href='mailto:ephraim@modevx.com' alt='social link icon'>
+    <img src='./assets/icon-env.svg' height='20'/>
+  </a>
+  &nbsp;
+  &nbsp;  
+  <a href='https://linkedin.com/in/ephbuilding' alt='social link icon'>
+    <img src='./assets/icon-li.svg' height='20'/>
+  </a>
+</div>
+
 ## **DEPENDENCIES**
 
 - [`@alpacahq/alpaca-trade-api`](https://github.com/alpacahq/alpaca-trade-api-js/blob/master/lib/alpaca-trade-api.js)
@@ -22,15 +90,33 @@
 
 ## **DEV DEPENDENCIES**
 
-- [`@types/node`](https://github.com/DefinitelyTyped/DefinitelyTyped)
-- [`TypeScript`](https://www.typescriptlang.org/handbook/typescript-in-5-minutes.html)
 - [`dotenv`](https://github.com/motdotla/dotenv)
 - [`jest`](https://jestjs.io/)
 - [`nodemon`](https://github.com/remy/nodemon#nodemon)
 
-![alster how to use graphic](./assets/use.png)
-
 ![alstr license graphic](./assets/license.png)
+
+<div align='right'>
+
+[install](#install) | [use](#use) | [license](#license) | [contribute](#contribute) | [resources](#resources)
+
+</div>
+
+<div align='right'>
+  <a href='https://twitter.com/ephbuilding' alt='social link icon'>
+    <img src='./assets/icon-tw.svg' height='20'/>
+  </a>
+  &nbsp;
+  &nbsp;
+  <a href='mailto:ephraim@modevx.com' alt='social link icon'>
+    <img src='./assets/icon-env.svg' height='20'/>
+  </a>
+  &nbsp;
+  &nbsp;  
+  <a href='https://linkedin.com/in/ephbuilding' alt='social link icon'>
+    <img src='./assets/icon-li.svg' height='20'/>
+  </a>
+</div>
 
 ## **MIT**
 
@@ -42,9 +128,53 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 ![alstr contribute graphic](./assets/contribute.png)
 
-I'm totally open to all feedback, input, advice, critiques, or the like. Fork it & make a pull request. Check out the 'connect' section below:
+<div align='right'>
+
+[install](#install) | [use](#use) | [license](#license) | [contribute](#contribute) | [resources](#resources)
+
+</div>
+
+<div align='right'>
+  <a href='https://twitter.com/ephbuilding' alt='social link icon'>
+    <img src='./assets/icon-tw.svg' height='20'/>
+  </a>
+  &nbsp;
+  &nbsp;
+  <a href='mailto:ephraim@modevx.com' alt='social link icon'>
+    <img src='./assets/icon-env.svg' height='20'/>
+  </a>
+  &nbsp;
+  &nbsp;  
+  <a href='https://linkedin.com/in/ephbuilding' alt='social link icon'>
+    <img src='./assets/icon-li.svg' height='20'/>
+  </a>
+</div>
+
+I'm totally open to all feedback, input, advice, critiques, or the like. Fork it & make a pull request.
 
 ![alstr resources graphic](./assets/resources.png)
+
+<div align='right'>
+
+[install](#install) | [use](#use) | [license](#license) | [contribute](#contribute) | [resources](#resources)
+
+</div>
+
+<div align='right'>
+  <a href='https://twitter.com/ephbuilding' alt='social link icon'>
+    <img src='./assets/icon-tw.svg' height='20'/>
+  </a>
+  &nbsp;
+  &nbsp;
+  <a href='mailto:ephraim@modevx.com' alt='social link icon'>
+    <img src='./assets/icon-env.svg' height='20'/>
+  </a>
+  &nbsp;
+  &nbsp;  
+  <a href='https://linkedin.com/in/ephbuilding' alt='social link icon'>
+    <img src='./assets/icon-li.svg' height='20'/>
+  </a>
+</div>
 
 - [Algorithmic Trading System Architecture](https://www.turingfinance.com/algorithmic-trading-system-architecture-post/) | Turing Finance
 - [Algorithmic Trading System Requirements](https://www.turingfinance.com/algorithmic-trading-system-requirements-post/) | Turing Finance
