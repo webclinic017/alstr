@@ -35,7 +35,11 @@
 
 <!-- #endregion /INTRO -->
 
+<div id='install' align='center'>
+
 ![alstr install and run graphic](./assets/install.png)
+
+</div>
 
 <div align='right'>
 
@@ -59,7 +63,11 @@
   </a>
 </div>
 
+<div id='use' align='center'>
+
 ![alster how to use graphic](./assets/use.png)
+
+</div>
 
 <div align='right'>
 
@@ -94,7 +102,11 @@
 - [`jest`](https://jestjs.io/)
 - [`nodemon`](https://github.com/remy/nodemon#nodemon)
 
+<div id='license' align='center'>
+
 ![alstr license graphic](./assets/license.png)
+
+</div>
 
 <div align='right'>
 
@@ -126,7 +138,11 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+<div id='contribute' align='center'>
+
 ![alstr contribute graphic](./assets/contribute.png)
+
+</div>
 
 <div align='right'>
 
@@ -152,7 +168,11 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 I'm totally open to all feedback, input, advice, critiques, or the like. Fork it & make a pull request.
 
+<div id='resources' align='center'>
+
 ![alstr resources graphic](./assets/resources.png)
+
+</div>
 
 <div align='right'>
 
