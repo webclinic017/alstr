@@ -1,24 +1,19 @@
 <!-- #region INTRO -->
 <div id='top' align='center'>
 
-![alstr title graphic](./assets/docs/rm_title.png)
+![alstr title graphic](./assets/title.png)
 
 </div>
 
-ALSTR is a full algo-trading platform that will include backtesting, forward testing, strategy execution, P&L report generation, AI-influenced strategy optimization, and strategy management via mobile interface.
-
-ALSTR is **very** early in development. That being said, I thought it'd be more fun to build it in public;) If you have any feedback, input, suggestions, advice - **_[hit me up!](mailto:github@ephraimsmith.dev)_**
-
-**_:bangbang: Check out [`BUILD_NOTES.md`](https://github.com/ephraimsmithdev/alstr/blob/prod/BUILD_NOTES.md) for project timeline, progress, resources, notes, issues, & more!_**
+- [ ] gameplan 1st mean-reverting strategy
+- [ ] pseudo-code outline strategy
+- [ ] write minimum acceptance tests
+- [ ] code it
+- [ ] test drive it in paper account
 
 <!-- #endregion /INTRO -->
 
-<!-- #region DEPENDENCIES -->
-<div id='deps' align='center'>
-
-![project dependencies section graphic](./assets/docs/dependencies.png)
-
-</div>
+![alstr install and run graphic](./assets/install.png)
 
 ## **DEPENDENCIES**
 
@@ -28,30 +23,14 @@ ALSTR is **very** early in development. That being said, I thought it'd be more 
 ## **DEV DEPENDENCIES**
 
 - [`@types/node`](https://github.com/DefinitelyTyped/DefinitelyTyped)
-- [`TypeScript`](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+- [`TypeScript`](https://www.typescriptlang.org/handbook/typescript-in-5-minutes.html)
 - [`dotenv`](https://github.com/motdotla/dotenv)
 - [`jest`](https://jestjs.io/)
 - [`nodemon`](https://github.com/remy/nodemon#nodemon)
 
-<!-- #endregion /DEPENDENCIES -->
+![alster how to use graphic](./assets/use.png)
 
-![alstr shout outs graphic](./assets/docs/rm_shout-outs.png)
-
-## **_Infinite Red_**
-
-[![GitHub followers](https://img.shields.io/github/stars/infinitered?label=/infinitered&style=social)](https://github.com/infinitered)
-[![Twitter Follow](https://img.shields.io/twitter/follow/infinite_red?label=@infinite_red&style=social)](https://twitter.com/infinite_red)
-
-- React Native [Ignite](https://github.com/infinitered/ignite) boilerplate
-
-## **_Jeffrey Hyer_**
-
-[![GitHub followers](https://img.shields.io/github/stars/JeffreyHyer?label=/JeffreyHyer&style=social)](https://github.com/JeffreyHyer)
-[![Twitter Follow](https://img.shields.io/twitter/follow/JeffreyHyer?label=@JeffreyHyer&style=social)](https://twitter.com/JeffreyHyer)
-
-- Node.js algo-trading [backtesting & execution engine](https://github.com/JeffreyHyer/grandmaster)
-
-![alstr license graphic](./assets/docs/rm_license.png)
+![alstr license graphic](./assets/license.png)
 
 ## **MIT**
 
@@ -61,18 +40,16 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-![alstr contribute graphic](./assets/docs/rm_contribute.png)
+![alstr contribute graphic](./assets/contribute.png)
 
 I'm totally open to all feedback, input, advice, critiques, or the like. Fork it & make a pull request. Check out the 'connect' section below:
 
-![alstr connect graphic](./assets/docs/rm_connect.png)
+![alstr resources graphic](./assets/resources.png)
 
-<table align='center'>
-  <tr >
-    <td style="border: none;"><a alt='icon link to modevx github account' href='https://github.com/modevx' target='_blank'><img src="https://cdn.iconscout.com/icon/free/png-256/github-157-675821.png" width="90"></a></td> 
-    <td style="border: none;"><a alt='icon link to modevx twitter account' href='https://twitter.com/_modevx' target='_blank'><img src="https://cdn.iconscout.com/icon/free/png-256/twitter-235-675852.png" width="90"></a></td>                      
-    <td style="border: none;"><a alt='icon link to modevx email' href='mailto:ephraim@modevx.com' target='_blank'><img src="https://cdn.iconscout.com/icon/free/png-256/email-letter-envelope-message-38065.png" width="90"></a></td>  
-    <td style="border: none;"><a alt='icon link to ephraim smiths linkedin account' href='https://linkedin.com/in/ephraimjsmith' target='_blank'><img src="https://cdn.iconscout.com/icon/free/png-256/linkedin-187-675833.png" width="90"></a></td>
-    <td style="border: none;"><a alt='icon link to modevx instagram account' href='https://instagram.com/_modevx' target='_blank'><img src="https://cdn.iconscout.com/icon/free/png-256/instagram-2752153-2284970.png" width="90"></a></td>
-  </tr>
-</table>
+- [Algorithmic Trading System Architecture](https://www.turingfinance.com/algorithmic-trading-system-architecture-post/) | Turing Finance
+- [Algorithmic Trading System Requirements](https://www.turingfinance.com/algorithmic-trading-system-requirements-post/) | Turing Finance
+- [`awesome-machine-learning`](https://github.com/josephmisiti/awesome-machine-learning) | Joseph Misiti
+- [`awesome-tensorflow`](https://github.com/jtoy/awesome-tensorflow) | jtoy
+- AWS algo-trading architecture [images](https://aws.amazon.com/blogs/industries/algorithmic-trading-on-aws-with-amazon-sagemaker-and-aws-data-exchange/)
+- free datasets | [NASDAQ Data Link](https://data.nasdaq.com/search?filters=%5B%22Free%22%5D)
+- [`grandmaster`](https://github.com/JeffreyHyer/grandmaster) backtesting & execution engine | [Jeffrey Hyer](https://twitter.com/JeffreyHyer)
