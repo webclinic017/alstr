@@ -63,6 +63,38 @@
   </a>
 </div>
 
+## clone project
+
+```shellscript
+git clone https://github.com/ephbuilding/alstr.git
+```
+
+## navigate to folder
+
+```shellscript
+cd alstr/
+```
+
+## install dependencies
+
+```shellscript
+yarn
+
+OR
+
+npm install
+```
+
+## run it
+
+```shellscript
+yarn dev
+
+OR
+
+npm run dev
+```
+
 <div id='use' align='center'>
 
 ![alster how to use graphic](./assets/use.png)
